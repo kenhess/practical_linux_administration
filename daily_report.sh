@@ -1,0 +1,27 @@
+#!/bin/bash
+
+# Daily Report Script
+
+today=`date +%m-%d-%Y`
+
+touch /opt/note/$today.xhtml
+
+echo "<pre>" >> /opt/note/$today.xhtml
+
+echo "Last Log " >> /opt/note/$today.xhtml
+last | grep root >> /opt/note/$today.xhtml
+
+echo "Non-privileged accounts in the Last Log " >> /opt/note/$today.xhtml
+last | grep -v root >> /opt/note/$today.xhtml
+
+echo " " >> /opt/note/$today.xhtml
+
+echo "Root Accounts " >> /opt/note/$today.xhtml
+grep :0 /etc/passwd >> /opt/note/$today.xhtml
+
+echo " " >> /opt/note/$today.xhtml
+
+echo "Files modified since yesterday " >> /opt/note/$today.xhtml
+find /etc -mtime -1 >> /opt/note/$today.xhtml
+
+echo "</pre>" >> /opt/note/$today.xhtml
