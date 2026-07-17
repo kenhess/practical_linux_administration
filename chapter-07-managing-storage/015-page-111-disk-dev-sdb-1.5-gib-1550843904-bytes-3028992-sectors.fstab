@@ -1,0 +1,11 @@
+# Source: Practical Linux System Administration, PDF page 111
+# Extracted verbatim from the code listing; review before execution.
+
+Disk /dev/sdb: 1.5 GiB, 1550843904 bytes, 3028992 sectors
+Units: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+Disklabel type: dos
+Disk identifier: 0xd268486b
+Device     Boot Start     End Sectors  Size Id Type
+/dev/sdb1        2048 3028991 3026944  1.5G 83 Linux

@@ -1,0 +1,6 @@
+# Source: Practical Linux System Administration, PDF page 113
+# Extracted verbatim from the code listing; review before execution.
+
+$ mount | grep sdb1
+/dev/sdb1 on /opt/software type xfs
+(rw,relatime,seclabel,attr2,inode64,logbuf...

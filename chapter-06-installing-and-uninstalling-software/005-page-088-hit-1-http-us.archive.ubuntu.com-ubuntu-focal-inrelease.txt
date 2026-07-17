@@ -1,0 +1,12 @@
+# Source: Practical Linux System Administration, PDF page 88
+# Extracted verbatim from the code listing; review before execution.
+
+Hit:1 http://us.archive.ubuntu.com/ubuntu focal InRelease
+Get:2 http://us.archive.ubuntu.com/ubuntu focal-updates InRelease [114 kB]
+Get:3 http://us.archive.ubuntu.com/ubuntu focal-backports InRelease [101 kB]
+Get:4 http://us.archive.ubuntu.com/ubuntu focal-security InRelease [114 kB]
+Fetched 328 kB in 52s (6,311 B/s)
+Reading package lists... Done
+Building dependency tree
+Reading state information... Done
+All packages are up to date.

@@ -1,0 +1,5 @@
+# Source: Practical Linux System Administration, PDF page 119
+# Extracted verbatim from the code listing; review before execution.
+
+$ sudo lvextend -L +size(M or G) lvname
+$ sudo lvextend -l +100%FREE lvname

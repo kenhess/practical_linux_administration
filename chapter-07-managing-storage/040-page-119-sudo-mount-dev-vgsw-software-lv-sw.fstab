@@ -1,0 +1,7 @@
+# Source: Practical Linux System Administration, PDF page 119
+# Extracted verbatim from the code listing; review before execution.
+
+$ sudo mount /dev/vgsw/software-lv /sw
+$ mount | grep software
+/dev/mapper/vgsw-software--lv on /sw type xfs  \
+(rw,relatime,seclabel,attr2,inode64,logbufs=8,logbsize=32k,noquota)

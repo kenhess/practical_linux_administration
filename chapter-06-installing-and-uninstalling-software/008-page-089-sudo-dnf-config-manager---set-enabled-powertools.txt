@@ -1,0 +1,4 @@
+# Source: Practical Linux System Administration, PDF page 89
+# Extracted verbatim from the code listing; review before execution.
+
+$ sudo dnf config-manager --set-enabled powertools

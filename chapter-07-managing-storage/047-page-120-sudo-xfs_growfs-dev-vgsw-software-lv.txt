@@ -1,0 +1,18 @@
+# Source: Practical Linux System Administration, PDF page 120
+# Extracted verbatim from the code listing; review before execution.
+
+$ sudo xfs_growfs /dev/vgsw/software-lv
+meta-data=/dev/mapper/vgsw-software--lv isize=512    agcount=4,
+agsize=65536 blks
+         =                              sectsz=512   attr=2,
+projid32bit=1
+         =                              crc=1        finobt=1,
+sparse=1, rmapbt=0
+         =                              reflink=1
+data     =                              bsize=4096   blocks=262144,
+imaxpct=25
+         =                              sunit=0      swidth=0 blks
+naming   =version 2                     bsize=4096   ascii-ci=0,
+ftype=1
+log      =internal log                  bsize=4096   blocks=2560,
+version=2

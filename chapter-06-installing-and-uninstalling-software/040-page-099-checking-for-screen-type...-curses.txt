@@ -1,0 +1,8 @@
+# Source: Practical Linux System Administration, PDF page 99
+# Extracted verbatim from the code listing; review before execution.
+
+checking for screen type... curses
+checking for specific curses-directory... no
+checking for extra include directories... no
+checking if we have identified curses headers... none
+configure: error: No curses header-files found

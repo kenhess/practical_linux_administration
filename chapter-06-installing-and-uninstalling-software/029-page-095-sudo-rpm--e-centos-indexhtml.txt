@@ -1,0 +1,8 @@
+# Source: Practical Linux System Administration, PDF page 95
+# Extracted verbatim from the code listing; review before execution.
+
+$ sudo rpm -e centos-indexhtml
+error: Failed dependencies:
+    redhat-indexhtml is needed by (installed) lynx-2.8.9-2.el8.x86_64
+$ sudo rpm -e lynx
+$ sudo rpm -e centos-indexhtml

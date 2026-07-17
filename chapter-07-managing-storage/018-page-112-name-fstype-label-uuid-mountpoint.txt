@@ -1,0 +1,18 @@
+# Source: Practical Linux System Administration, PDF page 112
+# Extracted verbatim from the code listing; review before execution.
+
+NAME        FSTYPE            LABEL UUID      MOUNTPOINT
+loop0       squashfs
+/var/lib/snapd/snap/asciinema/16
+loop1       squashfs
+/var/lib/snapd/snap/core/10577
+loop2       squashfs
+/var/lib/snapd/snap/core/10583
+sda
+├─sda1      ext4              1825fee2...     /boot
+└─sda2      LVM2_member       PqHcgi-X...
+  ├─cl-root xfs               41b93d34...     /
+  └─cl-swap swap              6b31789a...     [SWAP]
+sdb
+└─sdb1      xfs               ca2701e0...
+sr0

@@ -1,0 +1,9 @@
+# Source: Practical Linux System Administration, PDF page 111
+# Extracted verbatim from the code listing; review before execution.
+
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+Disklabel type: dos
+Disk identifier: 0x38e117ab
+Device     Boot   Start      End  Sectors Size Id Type
+/dev/sda1  *       2048  2099199  2097152   1G 83 Linux
+/dev/sda2       2099200 16777215 14678016   7G 8e Linux LVM

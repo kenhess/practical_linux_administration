@@ -1,0 +1,7 @@
+# Source: Practical Linux System Administration, PDF page 89
+# Extracted verbatim from the code listing; review before execution.
+
+$ sudo yum install lynx
+Last metadata expiration check: 1:00:58 ago on Fri 05 Nov 2021 10:50:41 AM CDT.
+No match for argument: lynx
+Error: Unable to find a match: lynx

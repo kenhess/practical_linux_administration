@@ -1,0 +1,28 @@
+# Source: Practical Linux System Administration, PDF page 116
+# Extracted verbatim from the code listing; review before execution.
+
+$ sudo vgs
+  VG   #PV #LV #SN Attr   VSize  VFree
+  cl     1   2   0 wz--n- <7.00g    0
+  vgsw   1   0   0 wz--n-  1.44g 1.44g
+$ sudo vgdisplay vgsw
+  --- Volume group ---
+  VG Name               vgsw
+  System ID
+  Format                lvm2
+  Metadata Areas        1
+  Metadata Sequence No  1
+  VG Access             read/write
+  VG Status             resizable
+  MAX LV                0
+  Cur LV                0
+  Open LV               0
+  Max PV                0
+  Cur PV                1
+  Act PV                1
+  VG Size               1.44 GiB
+  PE Size               4.00 MiB
+  Total PE              369
+  Alloc PE / Size       0 / 0
+  Free  PE / Size       369 / 1.44 GiB
+  VG UUID               AsQkWT-UpSu-3dYk-5EWT-DbQR-SovE-2oAmlR

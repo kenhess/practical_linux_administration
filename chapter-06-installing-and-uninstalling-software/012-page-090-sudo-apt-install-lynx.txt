@@ -1,0 +1,15 @@
+# Source: Practical Linux System Administration, PDF page 90
+# Extracted verbatim from the code listing; review before execution.
+
+$ sudo apt install lynx
+Reading package lists... Done
+Building dependency tree
+Reading state information... Done
+The following additional packages will be installed:
+  libidn11 lynx-common
+The following NEW packages will be installed:
+  libidn11 lynx lynx-common
+0 upgraded, 3 newly installed, 0 to remove and 0 not upgraded.
+Need to get 1,586 kB of archives.
+After this operation, 5,731 kB of additional disk space will be used.
+Do you want to continue? [Y/n]

@@ -1,0 +1,6 @@
+# Source: Practical Linux System Administration, PDF page 118
+# Extracted verbatim from the code listing; review before execution.
+
+$ sudo lvs /dev/vgsw/software-lv
+  LV     VG   Attr            LSize Pool Origin ...
+  software-lv vgsw -wi-a----- 1.00g

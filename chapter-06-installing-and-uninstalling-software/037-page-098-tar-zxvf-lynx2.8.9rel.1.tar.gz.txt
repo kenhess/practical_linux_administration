@@ -1,0 +1,4 @@
+# Source: Practical Linux System Administration, PDF page 98
+# Extracted verbatim from the code listing; review before execution.
+
+$ tar zxvf lynx2.8.9rel.1.tar.gz

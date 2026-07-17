@@ -1,0 +1,6 @@
+# Source: Practical Linux System Administration, PDF page 120
+# Extracted verbatim from the code listing; review before execution.
+
+$ df -h /sw
+Filesystem                     Size  Used Avail Use% Mounted on
+/dev/mapper/vgsw-software--lv 1014M   40M  975M   4% /sw

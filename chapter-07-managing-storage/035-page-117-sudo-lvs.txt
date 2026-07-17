@@ -1,0 +1,22 @@
+# Source: Practical Linux System Administration, PDF page 117
+# Extracted verbatim from the code listing; review before execution.
+
+$ sudo lvs
+  LV          VG   Attr         LSize   Pool Origin Data%  Meta%
+Move Log ...
+  root        cl   -wi-ao----  <6.20g
+  swap        cl   -wi-ao---- 820.00m
+  software-lv vgsw -wi-a-----   1.00g
+$ sudo lvdisplay /dev/vgsw/software-lv
+  --- Logical volume ---
+  LV Path                /dev/vgsw/software-lv
+  LV Name                software-lv
+  VG Name                vgsw
+  LV UUID                ebB3ST-3E7k-BShG-8oPi-sj0c-yXXr-C7EgAw
+  LV Write Access        read/write
+  LV Creation host, time server1, 2021-12-10 07:34:56 -0600
+  LV Status              available
+  # open                 0
+  LV Size                1.00 GiB
+  Current LE             256
+  Segments               1

@@ -1,0 +1,5 @@
+# Source: Practical Linux System Administration, PDF page 113
+# Extracted verbatim from the code listing; review before execution.
+
+/dev/disk/by-uuid/ca2701e0-3e75-4930-b14e-d83e1... /opt/software xfs
+defaults 0 0

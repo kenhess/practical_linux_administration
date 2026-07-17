@@ -1,0 +1,7 @@
+# Source: Practical Linux System Administration, PDF page 115
+# Extracted verbatim from the code listing; review before execution.
+
+$ sudo pvs
+  PV         VG Fmt  Attr PSize  PFree
+  /dev/sda2  cl lvm2 a--  <7.00g    0
+  /dev/sdb      lvm2 ---   1.44g 1.44g

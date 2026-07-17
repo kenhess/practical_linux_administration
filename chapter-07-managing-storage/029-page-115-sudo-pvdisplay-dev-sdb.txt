@@ -1,0 +1,15 @@
+# Source: Practical Linux System Administration, PDF page 115
+# Extracted verbatim from the code listing; review before execution.
+
+$ sudo pvdisplay /dev/sdb
+  "/dev/sdb" is a new physical volume of "1.44 GiB"
+  --- NEW Physical volume ---
+  PV Name               /dev/sdb
+  VG Name
+  PV Size               1.44 GiB
+  Allocatable           NO
+  PE Size               0
+  Total PE              0
+  Free PE               0
+  Allocated PE          0
+  PV UUID               yl6k0u-cymt-p4jd-VXro-Lit1-EkLe-Jqjc94

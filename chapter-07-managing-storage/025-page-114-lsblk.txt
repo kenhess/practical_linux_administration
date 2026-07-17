@@ -1,0 +1,15 @@
+# Source: Practical Linux System Administration, PDF page 114
+# Extracted verbatim from the code listing; review before execution.
+
+$ lsblk
+NAME        MAJ:MIN RM  SIZE RO TYPE MOUNTPOINT
+loop0         7:0    0  8.5M  1 loop /var/lib/snapd/snap/asciinema/16
+loop1         7:1    0 97.9M  1 loop /var/lib/snapd/snap/core/10577
+loop2         7:2    0 97.9M  1 loop /var/lib/snapd/snap/core/10583
+sda           8:0    0    8G  0 disk
+├─sda1        8:1    0    1G  0 part /boot
+└─sda2        8:2    0    7G  0 part
+  ├─cl-root 253:0    0  6.2G  0 lvm  /
+  └─cl-swap 253:1    0  820M  0 lvm  [SWAP]
+sdb           8:16   0  1.5G  0 disk
+sr0          11:0    1 1024M  0 rom

@@ -1,0 +1,11 @@
+# Source: Practical Linux System Administration, PDF page 92
+# Extracted verbatim from the code listing; review before execution.
+
+lynx*
+0 upgraded, 0 newly installed, 1 to remove and 0 not upgraded.
+After this operation, 1,992 kB disk space will be freed.
+Do you want to continue? [Y/n] y
+(Reading database ... 108095 files and directories currently installed.)
+Removing lynx (2.9.0dev.5-1) ...
+(Reading database ... 108082 files and directories currently installed.)
+Purging configuration files for lynx (2.9.0dev.5-1) ...

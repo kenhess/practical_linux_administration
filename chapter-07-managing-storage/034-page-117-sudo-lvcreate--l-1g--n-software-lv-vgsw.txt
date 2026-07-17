@@ -1,0 +1,8 @@
+# Source: Practical Linux System Administration, PDF page 117
+# Extracted verbatim from the code listing; review before execution.
+
+$ sudo lvcreate -L 1G -n software-lv vgsw
+WARNING: xfs signature detected on /dev/vgsw/software-lv at offset 0.
+Wipe it? [y/n]: y
+  Wiping xfs signature on /dev/vgsw/software-lv.
+  Logical volume "software-lv" created.

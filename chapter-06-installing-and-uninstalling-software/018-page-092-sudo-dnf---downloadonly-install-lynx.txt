@@ -1,0 +1,28 @@
+# Source: Practical Linux System Administration, PDF page 92
+# Extracted verbatim from the code listing; review before execution.
+
+$ sudo dnf --downloadonly install lynx
+Last metadata expiration check: 0:20:15 ago on Sat 06 Nov 2021 08:11:31 AM CDT.
+Dependencies resolved.
+=================================================================================
+ Package                 Architecture      Version         Repository        Size
+=================================================================================
+Installing:
+ lynx                    x86_64            2.8.9-2.el8     powertools       1.6 M
+Installing dependencies:
+ centos-indexhtml        noarch            8.0-0.el8       baseos           246 k
+Transaction Summary
+=================================================================================
+Install  2 Packages
+Total download size: 1.8 M
+Installed size: 6.5 M
+DNF will only download packages for the transaction.
+Is this ok [y/N]:y
+Downloading Packages:
+(1/2): lynx-2.8.9-2.el8.x86_64.rpm                    287 kB/s | 1.6 MB     00:05
+(2/2): centos-indexhtml-8.0-0.el8.noarch.rpm           37 kB/s | 246 kB     00:06
+---------------------------------------------------------------------------------
+Total                                                 252 kB/s | 1.8 MB     00:07
+Complete!
+The downloaded packages were saved in cache until the next successful transact...
+You can remove cached packages by executing 'dnf clean packages'.

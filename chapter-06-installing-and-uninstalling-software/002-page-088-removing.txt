@@ -1,0 +1,14 @@
+# Source: Practical Linux System Administration, PDF page 88
+# Extracted verbatim from the code listing; review before execution.
+
+Removing:
+ kernel                          x86_64          4.18.0...    @BaseOS         0
+ kernel-core                     x86_64          4.18.0...    @BaseOS        60 M
+ kernel-modules                  x86_64          4.18.0...    @BaseOS        20 M
+Transaction Summary
+=================================================================================
+Install   21 Packages
+Upgrade  256 Packages
+Remove     3 Packages
+Total download size: 404 M
+Is this ok [y/N]:

@@ -1,0 +1,4 @@
+# Source: Practical Linux System Administration, PDF page 98
+# Extracted verbatim from the code listing; review before execution.
+
+$ cd lynx2.8.9rel.1

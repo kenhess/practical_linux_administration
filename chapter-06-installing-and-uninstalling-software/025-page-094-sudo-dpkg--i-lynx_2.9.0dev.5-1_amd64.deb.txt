@@ -1,0 +1,17 @@
+# Source: Practical Linux System Administration, PDF page 94
+# Extracted verbatim from the code listing; review before execution.
+
+$ sudo dpkg -i lynx_2.9.0dev.5-1_amd64.deb
+Selecting previously unselected package lynx.
+(Reading database ... 108026 files and directories currently installed.)
+Preparing to unpack lynx_2.9.0dev.5-1_amd64.deb ...
+Unpacking lynx (2.9.0dev.5-1) ...
+dpkg: dependency problems prevent configuration of lynx:
+ lynx depends on libidn11 (>= 1.13); however:
+  Package libidn11 is not installed.
+ lynx depends on lynx-common; however:
+  Package lynx-common is not installed.
+dpkg: error processing package lynx (--install):
+ dependency problems - leaving unconfigured
+Errors were encountered while processing:
+ lynx

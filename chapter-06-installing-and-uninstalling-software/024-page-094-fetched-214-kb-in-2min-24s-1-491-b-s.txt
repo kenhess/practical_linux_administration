@@ -1,0 +1,5 @@
+# Source: Practical Linux System Administration, PDF page 94
+# Extracted verbatim from the code listing; review before execution.
+
+Fetched 214 kB in 2min 24s (1,491 B/s)
+Download complete and in download only mode

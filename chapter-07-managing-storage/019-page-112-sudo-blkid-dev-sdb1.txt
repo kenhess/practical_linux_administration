@@ -1,0 +1,4 @@
+# Source: Practical Linux System Administration, PDF page 112
+# Extracted verbatim from the code listing; review before execution.
+
+$ sudo blkid /dev/sdb1

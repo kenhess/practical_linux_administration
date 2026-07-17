@@ -1,0 +1,13 @@
+# Source: Practical Linux System Administration, PDF page 99
+# Extracted verbatim from the code listing; review before execution.
+
+$ make clean
+rm -f WWW/Library/*/*.[aoib]
+rm -f WWW/Library/*/.created
+cd ./WWW/Library/Implementation && make  DESTDIR="" CC="gcc" clean
+make[1]: Entering directory '/home/khess/lynx2.8.9rel.1/.../Implementation'
+rm -f core *.core *.leaks *.[oi] *.bak tags TAGS
+rm -f dtd_util
+rm -f ./*.o
+make[1]: Leaving directory '/home/khess/lynx2.8.9rel.1/.../Implementation'
+cd ./src && make  DESTDIR="" CC="gcc" clean

@@ -1,0 +1,6 @@
+# Source: Practical Linux System Administration, PDF page 93
+# Extracted verbatim from the code listing; review before execution.
+
+$ sudo rpm -i lynx-2.8.9-2.el8.x86_64.rpm
+error: Failed dependencies:
+      redhat-indexhtml is needed by lynx-2.8.9-2.el8.x86_64

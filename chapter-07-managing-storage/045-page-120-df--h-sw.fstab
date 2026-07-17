@@ -1,0 +1,12 @@
+# Source: Practical Linux System Administration, PDF page 120
+# Extracted verbatim from the code listing; review before execution.
+
+$ df -h /sw
+Filesystem                     Size  Used Avail Use% Mounted on
+/dev/mapper/vgsw-software--lv 1014M   40M  975M   4% /sw
+$ sudo lvextend -l +100%FREE /dev/vgsw/software-lv
+$ sudo lvextend -l +100%FREE /dev/vgsw/software-lv
+Size of logical volume vgsw/software-lv changed from 1.00 GiB (256
+extents)
+to 1.44 GiB (369 extents).
+Logical volume vgsw/software-lv successfully resized.

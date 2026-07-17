@@ -1,0 +1,8 @@
+# Source: Practical Linux System Administration, PDF page 107
+# Extracted verbatim from the code listing; review before execution.
+
+28K    /var/log/tuned
+2.3M    /var/log/audit
+0    /var/log/chrony
+3.3M    /var/log/anaconda
+10M    /var/log

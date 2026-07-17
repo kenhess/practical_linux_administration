@@ -1,0 +1,4 @@
+# Source: Practical Linux System Administration, PDF page 98
+# Extracted verbatim from the code listing; review before execution.
+
+$ wget https://invisible-mirror.net/archives/lynx/tarballs/lynx2.8.9rel.1.tar.gz

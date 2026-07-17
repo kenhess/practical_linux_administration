@@ -1,0 +1,30 @@
+# Source: Practical Linux System Administration, PDF page 95
+# Extracted verbatim from the code listing; review before execution.
+
+$ sudo apt purge lynx
+Reading package lists... Done
+Building dependency tree
+Reading state information... Done
+The following packages will be REMOVED:
+  lynx*
+0 upgraded, 0 newly installed, 1 to remove and 0 not upgraded.
+After this operation, 1,992 kB disk space will be freed.
+Do you want to continue? [Y/n]
+$ sudo apt purge lynx-common
+Reading package lists... Done
+Building dependency tree
+Reading state information... Done
+The following packages will be REMOVED:
+  lynx* lynx-common*
+0 upgraded, 0 newly installed, 2 to remove and 0 not upgraded.
+After this operation, 5,481 kB disk space will be freed.
+Do you want to continue? [Y/n]
+$ sudo apt purge libidn11
+Reading package lists... Done
+Building dependency tree
+Reading state information... Done
+The following packages will be REMOVED:
+  libidn11* lynx*
+0 upgraded, 0 newly installed, 2 to remove and 0 not upgraded.
+After this operation, 2,242 kB disk space will be freed.
+Do you want to continue? [Y/n]

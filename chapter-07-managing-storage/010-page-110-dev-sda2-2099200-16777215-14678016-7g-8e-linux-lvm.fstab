@@ -1,0 +1,4 @@
+# Source: Practical Linux System Administration, PDF page 110
+# Extracted verbatim from the code listing; review before execution.
+
+/dev/sda2       2099200 16777215 14678016   7G 8e Linux LVM

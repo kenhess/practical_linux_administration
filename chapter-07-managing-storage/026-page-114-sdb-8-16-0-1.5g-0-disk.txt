@@ -1,0 +1,4 @@
+# Source: Practical Linux System Administration, PDF page 114
+# Extracted verbatim from the code listing; review before execution.
+
+sdb           8:16   0  1.5G  0 disk

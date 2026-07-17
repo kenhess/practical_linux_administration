@@ -1,0 +1,13 @@
+# Source: Practical Linux System Administration, PDF page 100
+# Extracted verbatim from the code listing; review before execution.
+
+make[1]: Entering directory '/home/khess/lynx2.8.9rel.1/src'
+rm -f lynx core *.core *.leaks *.i *.o *.bak tags TAGS test_*
+cd chrtrans && make  DESTDIR="" CC="gcc" clean
+make[2]: Entering directory '/home/khess/lynx2.8.9rel.1/src/chrtrans'
+rm -f makeuctb *.o *uni.h *uni2.h *.i
+make[2]: Leaving directory '/home/khess/lynx2.8.9rel.1/src/chrtrans'
+make[1]: Leaving directory '/home/khess/lynx2.8.9rel.1/src'
+rm -f *.b ./src/lynx *.leaks cfg_defs.h LYHelp.h lint.*
+rm -f help_files.sed
+rm -f core *.core

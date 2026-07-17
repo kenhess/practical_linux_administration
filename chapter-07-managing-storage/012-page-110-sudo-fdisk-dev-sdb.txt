@@ -1,0 +1,7 @@
+# Source: Practical Linux System Administration, PDF page 110
+# Extracted verbatim from the code listing; review before execution.
+
+$ sudo fdisk /dev/sdb
+Welcome to fdisk (util-linux 2.32.1).
+Changes will remain in memory only, until you decide to write them.
+Be careful before using the write command.

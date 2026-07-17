@@ -1,0 +1,27 @@
+# Source: Practical Linux System Administration, PDF page 96
+# Extracted verbatim from the code listing; review before execution.
+
+$ sudo apt show lynx
+Package: lynx
+Version: 2.9.0dev.5-1
+Priority: extra
+Section: universe/web
+Origin: Ubuntu
+Maintainer: Ubuntu Developers <ubuntu-devel-discuss@lists.ubuntu.com>
+Original-Maintainer: Debian Lynx Packaging Team <pkg-lynx-maint@lists.aliot...
+Bugs: https://bugs.launchpad.net/ubuntu/+filebug
+Installed-Size: 1,992 kB
+Provides: news-reader, www-browser
+Depends: libbsd0 (>= 0.0), libbz2-1.0, libc6 (>= 2.15), libgnutls30 (>= 3.6.12...
+Recommends: mime-support
+Conflicts: lynx-ssl
+Breaks: lynx-cur (<< 2.8.9dev8-2~), lynx-cur-wrapper (<< 2.8.8dev.8-2)
+Replaces: lynx-cur (<< 2.8.9dev8-2~), lynx-cur-wrapper (<< 2.8.8dev.8-2)
+Homepage: https://lynx.invisible-island.net/
+Download-Size: 626 kB
+APT-Manual-Installed: yes
+APT-Sources: http://us.archive.ubuntu.com/ubuntu focal/universe amd64 Packages
+Description: classic non-graphical (text-mode) web browser
+ In continuous development since 1992, Lynx sets the standard for
+ text-mode web clients. It is fast and simple to use, with support for
+ browsing via FTP, Gopher, HTTP, HTTPS, NNTP, and the local file system.

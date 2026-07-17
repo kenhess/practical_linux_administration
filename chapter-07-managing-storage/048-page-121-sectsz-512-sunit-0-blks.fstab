@@ -1,0 +1,11 @@
+# Source: Practical Linux System Administration, PDF page 121
+# Extracted verbatim from the code listing; review before execution.
+
+=                              sectsz=512   sunit=0 blks,
+lazy-count=1
+realtime =none                          extsz=4096   blocks=0,
+rtextents=0
+data blocks changed from 262144 to 377856
+$ df -h /sw
+Filesystem                     Size  Used Avail Use% Mounted on
+/dev/mapper/vgsw-software--lv  1.5G   43M  1.4G   3% /sw

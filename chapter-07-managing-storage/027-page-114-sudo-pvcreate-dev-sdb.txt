@@ -1,0 +1,8 @@
+# Source: Practical Linux System Administration, PDF page 114
+# Extracted verbatim from the code listing; review before execution.
+
+$ sudo pvcreate /dev/sdb
+WARNING: dos signature detected on /dev/sdb at offset 510. Wipe it?
+[y/n]: y
+  Wiping dos signature on /dev/sdb.
+  Physical volume "/dev/sdb" successfully created.

@@ -1,0 +1,17 @@
+# Source: Practical Linux System Administration, PDF page 89
+# Extracted verbatim from the code listing; review before execution.
+
+$ sudo dnf install lynx
+CentOS Linux 8 - PowerTools                           2.4 kB/s | 2.4 MB     16:50
+Last metadata expiration check: 0:14:39 ago on Fri 05 Nov 2021 12:09:08 PM CDT.
+Dependencies resolved.
+=================================================================================
+ Package                   Architecture    Version         Repository        Size
+=================================================================================
+Installing:
+ lynx                      x86_64          2.8.9-2.el8     powertools       1.6 M
+Installing dependencies:
+ centos-indexhtml          noarch          8.0-0.el8       baseos           246 k
+Transaction Summary
+=================================================================================
+Install  2 Packages

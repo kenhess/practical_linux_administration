@@ -1,0 +1,27 @@
+# Source: Practical Linux System Administration, PDF page 100
+# Extracted verbatim from the code listing; review before execution.
+
+$ sudo make uninstall
+rm -f /usr/local/bin/`echo lynx|sed 's,x,x,'`
+rm -f /usr/local/share/man/man1/`echo lynx|sed 's,x,x,'`.1
+rm -f /usr/local/etc/lynx.cfg
+rm -f /usr/local/etc/lynx.lss
+/bin/sh -c 'if test -d "/usr/local/share/lynx_help" ; then \
+    WD=`cd "/usr/local/share/lynx_help" && pwd` ; \
+    TAIL=`basename "/usr/local/share/lynx_help"` ; \
+    HEAD=`echo "$WD"|sed -e "s,/${TAIL}$,,"` ; \
+    test "x$WD" != "x$HEAD" && rm -rf "/usr/local/share/lynx_help"; \
+    fi'
+/bin/sh -c 'if test -d "/usr/local/share/lynx_doc" ; then \
+    WD=`cd "/usr/local/share/lynx_doc" && pwd` ; \
+    TAIL=`basename "/usr/local/share/lynx_doc"` ; \
+    HEAD=`echo "$WD"|sed -e "s,/${TAIL}$,,"` ; \
+    test "x$WD" != "x$HEAD" && rm -rf "/usr/local/share/lynx_doc"; \
+    fi'
+/bin/sh -c 'if test -d "/usr/local/share/lynx_help" ; then \
+    WD=`cd "/usr/local/share/lynx_help" && pwd` ; \
+    TAIL=`basename "/usr/local/share/lynx_help"` ; \
+    HEAD=`echo "$WD"|sed -e "s,/'${TAIL}'$,,"` ; \
+    test "x$WD" != "x$HEAD" ; \
+    cd "/usr/local/share/lynx_help" && rm -f COPYING COPYHEADER ; \
+    fi'

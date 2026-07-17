@@ -1,0 +1,4 @@
+# Source: Practical Linux System Administration, PDF page 104
+# Extracted verbatim from the code listing; review before execution.
+
+UUID=324ddbc2-353b-4221-a80e-49ec356678dc /opt/software    xfs

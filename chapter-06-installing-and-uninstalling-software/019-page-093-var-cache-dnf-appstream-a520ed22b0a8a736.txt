@@ -1,0 +1,11 @@
+# Source: Practical Linux System Administration, PDF page 93
+# Extracted verbatim from the code listing; review before execution.
+
+/var/cache/dnf/appstream-a520ed22b0a8a736
+/var/cache/dnf/AppStream-a520ed22b0a8a736
+/var/cache/dnf/baseos-929b586ef1f72f69
+/var/cache/dnf/BaseOS-929b586ef1f72f69
+/var/cache/dnf/epel-6519ee669354a484
+/var/cache/dnf/epel-modular-95d9a0c53e492cbd
+/var/cache/dnf/extras-2770d521ba03e231
+/var/cache/dnf/powertools-25a6a2b331e53e98

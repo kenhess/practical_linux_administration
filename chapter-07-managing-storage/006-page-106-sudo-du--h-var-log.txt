@@ -1,0 +1,8 @@
+# Source: Practical Linux System Administration, PDF page 106
+# Extracted verbatim from the code listing; review before execution.
+
+$ sudo du -h /var/log
+0    /var/log/private
+0    /var/log/samba/old
+0    /var/log/samba
+36K    /var/log/sssd

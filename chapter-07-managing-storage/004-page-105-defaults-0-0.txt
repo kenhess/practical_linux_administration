@@ -1,0 +1,4 @@
+# Source: Practical Linux System Administration, PDF page 105
+# Extracted verbatim from the code listing; review before execution.
+
+defaults    0 0
