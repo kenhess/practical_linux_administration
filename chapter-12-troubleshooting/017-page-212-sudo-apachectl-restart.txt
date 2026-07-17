@@ -1,0 +1,36 @@
+# Source: Practical Linux System Administration, PDF page 212
+# Extracted verbatim from the code listing; review before execution.
+
+$ sudo apachectl restart
+Job for httpd.service failed because the control process exited
+with error code.
+See "systemctl status httpd.service" and "journalctl -xe" for
+details.
+$ systemctl status httpd.service
+httpd.service - The Apache HTTP Server
+  Loaded: loaded (/usr/lib/systemd/system/httpd.service; enabled;
+vendor prese...
+  Active: failed (Result: exit-code) since Sun 2022-10-16
+08:49:44 EDT; 17s ago
+    Docs: man:httpd.service(8)
+  Process: 58661 ExecReload=/usr/sbin/httpd $OPTIONS -k graceful
+(code=exited,...
+  Process: 59189 ExecStart=/usr/sbin/httpd $OPTIONS -DFOREGROUND
+(code=exited,...
+Main PID: 59189 (code=exited, status=1/FAILURE)
+  Status: "Reading configuration..."
+Oct 16 08:49:44 server1 systemd[1]: httpd.service: Succeeded.
+Oct 16 08:49:44 server1 systemd[1]: Stopped The Apache HTTP
+Server.
+Oct 16 08:49:44 server1 systemd[1]: Starting The Apache HTTP
+Server...
+Oct 16 08:49:44 server1 httpd[59189]: AH00526: Syntax error on
+line 34 of /etc...
+Oct 16 08:49:44 server1 httpd[59189]: Invalid command
+'ServerBoot', perhaps mi...
+Oct 16 08:49:44 server1 systemd[1]: httpd.service: Main process
+exited, code=e...
+Oct 16 08:49:44 server1 systemd[1]: httpd.service: Failed with
+result 'exit-co...
+Oct 16 08:49:44 server1 systemd[1]: Failed to start The Apache
+HTTP Server.

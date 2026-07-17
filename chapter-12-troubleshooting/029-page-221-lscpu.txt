@@ -1,0 +1,6 @@
+# Source: Practical Linux System Administration, PDF page 221
+# Extracted verbatim from the code listing; review before execution.
+
+# lscpu
+Architecture:        x86_64
+CPU op-mode(s):      32-bit, 64-bit

@@ -1,0 +1,7 @@
+# Source: Practical Linux System Administration, PDF page 213
+# Extracted verbatim from the code listing; review before execution.
+
+$ cd /var/log
+$ sudo grep -ir "Syntax error" *
+Binary file
+journal/027dd8a8c9624671b26d07e94eae8f1d/system.journal matches

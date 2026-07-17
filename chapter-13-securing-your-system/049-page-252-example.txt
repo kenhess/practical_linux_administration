@@ -1,0 +1,17 @@
+# Source: Practical Linux System Administration, PDF page 252
+# Extracted verbatim from the code listing; review before execution.
+
+---------------------------------------------------
+/var/lib/aide/aide.db
+  RMD160   : pxukBfZYMClQJluYftmJxyHvQ6c=
+  TIGER    : aRgAX6JnizUa9yiTE29/uZ0HqMYioQcN
+  SHA256   : lmV6LTtzpiLDUAw6qloEgfAT0sD7J74w
+             2vqhj7nVLP0=
+  SHA512   : VCfBAAxLvaA5CEtOJEPu2SeA/565gfUS
+             T0BgFFwfXWG8RkksMbnHtm8pDtVlUSnc
+             TqQhcebdU/qODLwPkGIzTg==
+  CRC32    : 7jx94w==
+  HAVAL    : vrZDJ+70DZkjj7t6BHzt3ph4UN4yoDnd
+             8oxrBBy2hvA=
+  GOST     : sDLorHAYPZb74dZmIpYYZjARR3znxOXI
+             Sv0WSZiZV0g=

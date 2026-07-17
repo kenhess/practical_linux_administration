@@ -1,0 +1,9 @@
+# Source: Practical Linux System Administration, PDF page 247
+# Extracted verbatim from the code listing; review before execution.
+
+TIGER    : 2fM2gL5j7aZ+BpjS9QOx4CjJKEZlZLSC
+  SHA256   : XTBnehGnObWiSXR4qEJDQqOO0eCAQzfJ
+             4viTZDfmQYI=
+  SHA512   : M+1T1KBw04F/hbWE2uSEs3mEsYI7QzoM
+             godalkUZAWLoG5LgsJTiFjPXdSnZ/dRE
+             n4A83aQWtART7O7uVNR//A==

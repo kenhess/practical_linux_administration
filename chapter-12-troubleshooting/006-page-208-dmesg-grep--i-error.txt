@@ -1,0 +1,9 @@
+# Source: Practical Linux System Administration, PDF page 208
+# Extracted verbatim from the code listing; review before execution.
+
+$ dmesg | grep -i error
+[ 2.229324] RAS: Correctable Errors collector initialized.
+[ 3.820963] [drm:vmw_host_log [vmwgfx]] *ERROR* Failed to send
+host log message.
+[ 3.829724] [drm:vmw_host_log [vmwgfx]] *ERROR* Failed to send
+host log message.

@@ -1,0 +1,6 @@
+# Source: Practical Linux System Administration, PDF page 207
+# Extracted verbatim from the code listing; review before execution.
+
+# cd /opt/mnt/install/repo/Packages
+# rpm -Uvh --root=/mnt/sysimage kernel-3.10.0-
+1127.10.1.el7.x86_64

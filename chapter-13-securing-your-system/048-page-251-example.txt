@@ -1,0 +1,5 @@
+# Source: Practical Linux System Administration, PDF page 251
+# Extracted verbatim from the code listing; review before execution.
+
+---------------------------------------------------
+The attributes of the (uncompressed) database(s):

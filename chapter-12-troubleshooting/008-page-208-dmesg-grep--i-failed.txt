@@ -1,0 +1,19 @@
+# Source: Practical Linux System Administration, PDF page 208
+# Extracted verbatim from the code listing; review before execution.
+
+$ dmesg | grep -i failed
+[ 3.820963] [drm:vmw_host_log [vmwgfx]] *ERROR* Failed to send
+host log message.
+[ 3.829724] [drm:vmw_host_log [vmwgfx]] *ERROR* Failed to send
+host log message.
+$ dmesg | grep -i fault
+[ 0.004466] MTRR default type: uncachable
+[ 0.362760] pid_max: default: 32768 minimum: 301
+[ 0.710356] iommu: Default domain type: Translated
+[ 0.728057] NetLabel:  unlabeled traffic allowed by default
+[ 0.802045] PCI: CLS 0 bytes, default 64
+[ 5.766858] systemd[1]: systemd 245.4-4ubuntu3.17 running in
+system mode. (+PA...
+[333390.696268] systemd[1]: systemd 245.4-4ubuntu3.18 running in
+system mode. ...
+$ dmesg | grep -i undefined

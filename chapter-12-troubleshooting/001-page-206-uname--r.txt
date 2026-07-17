@@ -1,0 +1,5 @@
+# Source: Practical Linux System Administration, PDF page 206
+# Extracted verbatim from the code listing; review before execution.
+
+# uname -r
+3.10.0-327.el7.x86_64

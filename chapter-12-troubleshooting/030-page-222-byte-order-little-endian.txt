@@ -1,0 +1,26 @@
+# Source: Practical Linux System Administration, PDF page 222
+# Extracted verbatim from the code listing; review before execution.
+
+Byte Order:          Little Endian
+CPU(s):              1
+On-line CPU(s) list: 0
+Thread(s) per core:  1
+Core(s) per socket:  1
+Socket(s):           1
+NUMA node(s):        1
+Vendor ID:           GenuineIntel
+CPU family:          6
+Model:               61
+Model name:          Intel(R) Core(TM) i5-5350U CPU @ 1.80GHz
+Stepping:            4
+CPU MHz:             1799.999
+BogoMIPS:            3599.99
+Hypervisor vendor:   KVM
+Virtualization type: full
+L1d cache:           32K
+L1i cache:           32K
+L2 cache:            256K
+L3 cache:            3072K
+NUMA node0 CPU(s):   0
+Flags:               fpu vme de pse tsc msr pae mce cx8 apic sep
+mtrr pge mca ...

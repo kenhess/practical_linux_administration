@@ -1,0 +1,16 @@
+# Source: Practical Linux System Administration, PDF page 252
+# Extracted verbatim from the code listing; review before execution.
+
+$ sudo aide.wrapper --update
+Start timestamp: 2022-10-31 10:42:00 -0400 (AIDE 0.16.1)
+AIDE found differences between database and filesystem!!
+New AIDE database written to /var/lib/aide/aide.db.new
+Verbose level: 6
+Summary:
+  Total number of entries:    220641
+  Added entries:          1
+  Removed entries:        1
+  Changed entries:        9
+---------------------------------------------------
+Added entries:
+---------------------------------------------------

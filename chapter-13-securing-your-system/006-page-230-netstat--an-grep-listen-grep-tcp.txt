@@ -1,0 +1,7 @@
+# Source: Practical Linux System Administration, PDF page 230
+# Extracted verbatim from the code listing; review before execution.
+
+$ netstat -an | grep LISTEN | grep tcp
+tcp        0      0 0.0.0.0:22              0.0.0.0:*
+LISTEN
+$ netstat -an | grep LISTEN | grep udp

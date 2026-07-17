@@ -1,0 +1,15 @@
+# Source: Practical Linux System Administration, PDF page 237
+# Extracted verbatim from the code listing; review before execution.
+
+[khess@server2 ~]$ ssh server1
+The authenticity of host 'server1 (192.168.1.80)' can't be
+established.
+ECDSA key fingerprint is
+SHA256:Aim3J/cp24ZIneGzoNyZpf3kWG17ZRrMQVicvOQRyPM.
+Are you sure you want to continue connecting
+(yes/no/[fingerprint])? yes
+Warning: Permanently added '192.168.1.80' (ECDSA) to the list of
+known hosts.
+khess@192.168.1.80's password:
+Last login: Thu Aug 11 08:08:04 2022 from 192.168.1.234
+[khess@server1 ~]$

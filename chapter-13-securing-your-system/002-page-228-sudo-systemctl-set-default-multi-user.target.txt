@@ -1,0 +1,4 @@
+# Source: Practical Linux System Administration, PDF page 228
+# Extracted verbatim from the code listing; review before execution.
+
+$ sudo systemctl set-default multi-user.target

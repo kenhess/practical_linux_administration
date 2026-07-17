@@ -1,0 +1,22 @@
+# Source: Practical Linux System Administration, PDF page 248
+# Extracted verbatim from the code listing; review before execution.
+
+$ sudo cp /var/lib/aide/aide.db.new.gz /var/lib/aide/aide.db.gz
+$ sudo aide --check
+Start timestamp: 2022-10-31 10:08:44 -0400 (AIDE 0.16)
+AIDE found NO differences between database and filesystem. Looks
+okay!!
+Number of entries:    156566
+---------------------------------------------------
+The attributes of the (uncompressed) database(s):
+---------------------------------------------------
+/var/lib/aide/aide.db.gz
+  MD5      : WzAN0+7wHIA5a+vZkzwQVQ==
+  SHA1     : 8FisYNVBvBy3bdg1NaeJY1vm7LI=
+  RMD160   : fwBCNvM7WMl7j8TN3EhB5X72ozs=
+  TIGER    : 2fM2gL5j7aZ+BpjS9QOx4CjJKEZlZLSC
+  SHA256   : XTBnehGnObWiSXR4qEJDQqOO0eCAQzfJ
+             4viTZDfmQYI=
+  SHA512   : M+1T1KBw04F/hbWE2uSEs3mEsYI7QzoM
+             godalkUZAWLoG5LgsJTiFjPXdSnZ/dRE
+             n4A83aQWtART7O7uVNR//A==

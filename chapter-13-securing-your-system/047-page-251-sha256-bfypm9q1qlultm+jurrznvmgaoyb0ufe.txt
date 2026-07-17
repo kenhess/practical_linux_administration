@@ -1,0 +1,46 @@
+# Source: Practical Linux System Administration, PDF page 251
+# Extracted verbatim from the code listing; review before execution.
+
+SHA256   : bfyPm9q1QlUlTm+JurRZnVMgAOYb0UFE |
+5vU1pGWJ2WxMLZK7/f3qZ/Ix4o+NANoB
+             qIjQofT4Jfo=                     | kNN6Q+9pwCk=
+  SHA512   : oLscXcjp62ezwcSZ3E1EUkTrRCilblyM |
+Vd0CyIE+C+oGAOLsCfvfxdNlqKvasSC4
+             9/g+mdsGNBxA681uxBJcyVZIPJZ1s/cX |
+dVF0zmryyzd5lDsod8aH8WNLEfpHlSzL
+             SQV6E+nnc2KiL4teg1YdKg==         |
+j9+yt6iOJAKTtO3bIdqmEg==
+  CRC32    : pe7DMw==                         | br312w==
+  HAVAL    : izYRs/Df2Ae5PAbD9m7RsTOXvO2sTOV0 |
+wamyIlLjRTtgFpwgfIABPhAodrHuRHe1
+             qv7063B7mFI=                     | ee/pSNw9Z/I=
+  GOST     : FH3fMIAa0W2eV+aLNnkY+wjxhjr+LhqA |
+yYmdcHpvePslHVmsm1w2TpgqIo6Mh1QT
+             CZbOX7wbKRA=                     | oFuber3PVDo=
+File: /var/log/sysstat/sa31
+  Size     : 131024                           | 139840
+  Bcount   : 264                              | 288
+  Mtime    : 2022-10-31 09:35:01 -0400        | 2022-10-31
+10:15:01 -0400
+  Ctime    : 2022-10-31 09:35:01 -0400        | 2022-10-31
+10:15:01 -0400
+  RMD160   : bFqT+RlB042AhIl9JaOaAI/fGPE=     |
+jO8DEa6NGNYnP6+U8BF/yUsweIs=
+  TIGER    : /Pz1oVax6QHqhWivA3Cec/f0vHajjxx0 |
+XiMXwjskfSFf4NH8rRb4cWc6West9MQp
+  SHA256   : t256G+V3hS8DvMj53EXw8W7e/MkwSAUe |
+T7r2xNaGWtzBp0Qab6seO1KNluyOmWa+
+             9AYuduiSjVI=                     | 634jjyPpVCk=
+  SHA512   : KSUTRzDpgc/s2jwJkQIb0uS+5cJsFqXl |
+iguQ86cwvpqL3WAmFJWA0tpzy43REGKh
+             yGXoVuzd65YDpE8msRaBRCcqTIB740pf |
+DcySXGUBCSHXvmFHAK4P7Zk0tJB4etzj
+             dgo3E6K/s8UaqI1biiC2tQ==         |
+Vpg8/WZL+0nSk3XaKZ6UwA==
+  CRC32    : 07QWcA==                         | 8X9Ixg==
+  HAVAL    : WnGG1i1qhDBdNIL7TGF9euydFem/oZC9 |
+v6IskRb6hSnVRiB5tqUSCysPtqn3ZKQp
+             u7o3lSxAl0Q=                     | HPay7Epiak0=
+  GOST     : vkWWBQUA+WBuEBvNAMLFerzUOkT5SWl9 |
+AZNTPCF3a1oSYHexxtKQoL0ksvP1Oyhx
+             QTnod3FQCJQ=                     | H+BXGeFVW70=

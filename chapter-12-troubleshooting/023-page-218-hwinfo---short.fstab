@@ -1,0 +1,27 @@
+# Source: Practical Linux System Administration, PDF page 218
+# Extracted verbatim from the code listing; review before execution.
+
+# hwinfo --short
+cpu:
+                       Intel(R) Core(TM) i5-5350U CPU @ 1.80GHz,
+1800 MHz
+keyboard:
+  /dev/input/event2    AT Translated Set 2 keyboard
+mouse:
+  /dev/input/mice      Mouse
+graphics card:
+                       VMware VMWARE0405
+sound:
+                       Intel 82801AA AC'97 Audio Controller
+storage:
+                       Intel 82801HM/HEM (ICH8M/ICH8M-E) SATA
+Controller [AHCI...
+                       Intel 82371AB/EB/MB PIIX4 IDE
+network:
+  enp0s3               Intel PRO/1000 MT Desktop Adapter
+network interface:
+  lo                   Loopback network interface
+  enp0s3               Ethernet network interface
+disk:
+  /dev/sdb             VBOX HARDDISK
+  /dev/sdc             VBOX HARDDISK

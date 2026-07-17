@@ -1,0 +1,20 @@
+# Source: Practical Linux System Administration, PDF page 245
+# Extracted verbatim from the code listing; review before execution.
+
+Oct 31 21:21:51 server2 portsentry[177518]: attackalert: Host:
+192.168.1.234...
+already blocked. Ignoring
+Oct 31 21:21:51 server2 portsentry[177518]: attackalert: Connect
+from host: ...
+to TCP port: 32772
+Oct 31 21:21:51 server2 portsentry[177518]: attackalert: Host:
+192.168.1.234...
+already blocked. Ignoring
+Oct 31 21:21:51 server2 portsentry[177518]: attackalert: Connect
+from host: ...
+to TCP port: 32773
+Oct 31 21:21:51 server2 portsentry[177518]: attackalert: Host:
+192.168.1.234...
+already blocked. Ignoring
+Oct 31 21:21:51 server2 portsentry[177518]: attackalert: Connect
+from host: ...

@@ -1,0 +1,7 @@
+# Source: Practical Linux System Administration, PDF page 246
+# Extracted verbatim from the code listing; review before execution.
+
+to TCP port: 32774
+Oct 31 21:21:51 server2 portsentry[177518]: attackalert: Host:
+192.168.1.234...
+already blocked. Ignoring

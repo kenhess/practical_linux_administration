@@ -1,0 +1,4 @@
+# Source: Practical Linux System Administration, PDF page 242
+# Extracted verbatim from the code listing; review before execution.
+
+$ sudo grep Suggestion /var/log/lynis.log > lynis_fixes.txt

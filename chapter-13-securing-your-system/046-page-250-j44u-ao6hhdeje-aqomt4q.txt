@@ -1,0 +1,48 @@
+# Source: Practical Linux System Administration, PDF page 250
+# Extracted verbatim from the code listing; review before execution.
+
+j44U/ao6HhDEjE/aqoMT4Q==
+  CRC32    : j0j0sA==                         | E7N72A==
+  HAVAL    : giCwkv0n5oPDwHs/9k0HfPoGcAvkntQF |
+TJbUsmxe9Kt0+xK6R72Nk0R/2PT/XZVe
+             39jkiW8nA3o=                     | Ml3VqYaXTGg=
+  GOST     : P7uSZmTObQfp5nChg9W4svXupluCGaMS |
+GHF0TxYsXQfay3ayLi/KBck1hDcor92t
+             xKp5tZQoPsQ=                     | zHzSyOiNZYk=
+File: /run/samba/smbd_cleanupd.tdb
+  RMD160   : D8RmZx6959xPvPKuRbEGMJdl9ww=     |
+uOtFZoKw8zVjcGZdhJkXcyL3kEg=
+  TIGER    : xCRjkykka/bv2rf06KRdPtigjByvsQJB |
+r5sm3aHqZJ26jPmADp8tk1qvdPw1IfFF
+  SHA256   : 7egAlq5dMozWAiYPYx3JH9r7kY1oyeOR |
+FVaSrvPfA5ivujOsuVcKgCdS20TQTGrw
+             0DYEU4MZohA=                     | MFTjvyUFZWk=
+  SHA512   : AqzJDePQwKxivNPtdJzX4suWBQnDSJhO |
+lYLskmVOAFSHs9dG2eVP9u4bEAWOcKM6
+             hjUdEpFGKFaj0ODwuVumBHi/npByq2pZ |
+M0Tf73IXztE5kaP/9YHaOJRGata0GCZk
+             +tMh5Kc5IevDpGPvrj5lxQ==         |
+t5viYSFd2ZIL9Alr31kACg==
+  CRC32    : V4u1vg==                         | haAC6Q==
+  HAVAL    : 0Ny4G+Y4tTaGHfFu7cXgW7yV2iPaO7xL |
+tR7ZgOfYNMjaKk0byAUOXAPx6/COqfVc
+             ae5dMQFmNPY=                     | 4jpIEdYENd4=
+  GOST     : dbrx9gce/697G9QVs4XcaoHXuS2fd3Nn |
+jewBI4vx9CPF6Xof7f2vdZOrzmzAcD2c
+             ZNAX4+OndrQ=                     | yimBCewy/bE=
+Directory: /run/systemd/units
+  Size     : 1760                             | 1740
+  Mtime    : 2022-10-31 09:30:13 -0400        | 2022-10-31
+09:35:18 -0400
+  Ctime    : 2022-10-31 09:30:13 -0400        | 2022-10-31
+09:35:18 -0400
+File:
+/var/log/journal/ae1c358b16f744999c9d4b7a80e92d66/system.journal
+  Mtime    : 2022-10-31 09:35:18 -0400        | 2022-10-31
+10:17:02 -0400
+  Ctime    : 2022-10-31 09:35:18 -0400        | 2022-10-31
+10:17:02 -0400
+  RMD160   : oUjngLN5zL6EG9FssV5/Y7RDdG4=     |
+EekegpOq7Vf0fR82TtrvxJAwXP4=
+  TIGER    : ZH3LLiOvM8ew7O3yw+SC/wHiDvkTemCF |
+N9DDL3wW44urrq0MJhwnclk4/c1jLuJW

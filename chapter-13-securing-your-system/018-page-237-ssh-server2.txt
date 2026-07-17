@@ -1,0 +1,6 @@
+# Source: Practical Linux System Administration, PDF page 237
+# Extracted verbatim from the code listing; review before execution.
+
+[khess@server1 ~]$ ssh server2
+Last login: Fri Aug 12 14:10:46 2022 from 192.168.1.80
+[khess@server2 ~]$

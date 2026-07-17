@@ -1,0 +1,4 @@
+# Source: Practical Linux System Administration, PDF page 244
+# Extracted verbatim from the code listing; review before execution.
+
+KILL_ROUTE="/sbin/route add -host $TARGET$ reject"

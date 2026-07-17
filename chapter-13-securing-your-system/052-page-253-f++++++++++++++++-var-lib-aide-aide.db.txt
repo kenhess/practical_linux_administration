@@ -1,0 +1,22 @@
+# Source: Practical Linux System Administration, PDF page 253
+# Extracted verbatim from the code listing; review before execution.
+
+f++++++++++++++++: /var/lib/aide/aide.db
+---------------------------------------------------
+Removed entries:
+---------------------------------------------------
+l----------------:
+/run/systemd/units/invocation:packagekit.service
+---------------------------------------------------
+Changed entries:
+---------------------------------------------------
+f =.... ....C..  : /run/samba/smbXsrv_open_global.tdb
+f =.... ....C..  : /run/samba/smbd_cleanupd.tdb
+d <.... mc.. ..  : /run/systemd/units
+d =.... mc.. .. .: /var/lib/chrony
+f =.... mci.C.. .: /var/lib/chrony/chrony.drift
+d =.... mc.. .. .: /var/lib/snapd
+f >.... mci.C.. .: /var/lib/snapd/state.json
+f =.... mc..C.. .:
+/var/log/journal/ae1c358b16f744999c9d4b7a80e.../system.journal
+f >b... mc..C.. .: /var/log/sysstat/sa31

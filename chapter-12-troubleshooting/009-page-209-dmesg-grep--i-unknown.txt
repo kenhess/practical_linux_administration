@@ -1,0 +1,5 @@
+# Source: Practical Linux System Administration, PDF page 209
+# Extracted verbatim from the code listing; review before execution.
+
+$ dmesg | grep -i unknown
+[ 0.374321] SRBDS: Unknown: Dependent on hypervisor status

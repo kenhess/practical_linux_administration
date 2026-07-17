@@ -1,0 +1,5 @@
+# Source: Practical Linux System Administration, PDF page 248
+# Extracted verbatim from the code listing; review before execution.
+
+/var/lib/aide/please-dont-call-aide-without-
+parameters/aide.db for reading.

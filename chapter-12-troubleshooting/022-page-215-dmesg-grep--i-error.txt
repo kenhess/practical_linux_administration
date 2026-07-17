@@ -1,0 +1,15 @@
+# Source: Practical Linux System Administration, PDF page 215
+# Extracted verbatim from the code listing; review before execution.
+
+$ dmesg | grep -i error
+[ 8.741308] [drm:vmw_host_log [vmwgfx]] *ERROR* Failed to send
+host log message.
+[ 8.741321] [drm:vmw_host_log [vmwgfx]] *ERROR* Failed to send
+host log message.
+$ dmesg | grep -i fail
+[ 0.063026] acpi PNP0A03:00: fail to add MMCONFIG information,
+can't access ...
+[ 8.741308] [drm:vmw_host_log [vmwgfx]] *ERROR* Failed to send
+host log message.
+[ 8.741321] [drm:vmw_host_log [vmwgfx]] *ERROR* Failed to send
+host log message.

@@ -1,0 +1,4 @@
+# Source: Practical Linux System Administration, PDF page 212
+# Extracted verbatim from the code listing; review before execution.
+
+httpd[59189]: AH00526: Syntax error on line 34 of

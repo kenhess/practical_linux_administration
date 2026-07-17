@@ -1,0 +1,5 @@
+# Source: Practical Linux System Administration, PDF page 207
+# Extracted verbatim from the code listing; review before execution.
+
+dracut: Will not override existing initramfs (/boot/initramfs...)
+without --force

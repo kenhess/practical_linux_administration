@@ -1,0 +1,29 @@
+# Source: Practical Linux System Administration, PDF page 219
+# Extracted verbatim from the code listing; review before execution.
+
+/dev/sda             VBOX HARDDISK
+partition:
+  /dev/sdc1            Partition
+  /dev/sda1            Partition
+  /dev/sda2            Partition
+cdrom:
+  /dev/sr0             VBOX CD-ROM
+usb controller:
+                       Apple KeyLargo/Intrepid USB
+bios:
+                       BIOS
+bridge:
+                       Intel 82371SB PIIX3 ISA [Natoma/Triton II]
+                       Intel 82371AB/EB/MB PIIX4 ACPI
+                       Intel 440FX - 82441FX PMC [Natoma]
+hub:
+                       Linux Foundation 1.1 root hub
+memory:
+                       Main Memory
+unknown:
+                       FPU
+                       DMA controller
+                       PIC
+                       Keyboard controller
+                       InnoTek Systemberatung VirtualBox Guest
+Service

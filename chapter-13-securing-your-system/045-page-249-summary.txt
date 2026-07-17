@@ -1,0 +1,42 @@
+# Source: Practical Linux System Administration, PDF page 249
+# Extracted verbatim from the code listing; review before execution.
+
+Summary:
+  Total number of entries:    220641
+  Added entries:          1
+  Removed entries:        1
+  Changed entries:        5
+---------------------------------------------------
+Added entries:
+---------------------------------------------------
+f++++++++++++++++: /var/lib/aide/aide.db
+---------------------------------------------------
+Removed entries:
+---------------------------------------------------
+l----------------:
+/run/systemd/units/invocation:packagekit.service
+---------------------------------------------------
+Changed entries:
+---------------------------------------------------
+f =.... ....C..  : /run/samba/smbXsrv_open_global.tdb
+f =.... ....C..  : /run/samba/smbd_cleanupd.tdb
+d <.... mc.. ..  : /run/systemd/units
+f =.... mc..C.. .:
+/var/log/journal/ae1c358b16f744999c9d4b7a80e.../system.journal
+f >b... mc..C.. .: /var/log/sysstat/sa31
+---------------------------------------------------
+Detailed information about changes:
+---------------------------------------------------
+File: /run/samba/smbXsrv_open_global.tdb
+  RMD160   : CCdm3M2ObTIu3vIXdx1vyH8emLc=     |
+AMx08YvCC7rmeUGhvjZ3OjLInKs=
+  TIGER    : 814xHPLSSvskZzBYZ0xfLej4O5/LeQ2s |
+PE/hVYgRx4i17ckNePiFjVXgPQu0wOGG
+  SHA256   : Y6KJgoFPHLYXfqBOom9NlbkXIYAmXmjQ |
+ahWfobXIOoIToffW0+jZjYYTg8W/JrFd
+             /kRNN0Axa1o=                     | vrCgRinjC+g=
+  SHA512   : kRDLUujEHcHUIyUVtv/u9BFldu+oCXFj |
+ZudqhTqoc3xOSp5RMntoJ0yUU6dkrifw
+             9qbOjLft3SJK3btR0vfJtJHL1UW13LZC |
+R+2UDQM1zTopREoU/+N/jo9i80AcDqD6
+             bUf44NCR1OSQ6s2DIfcb7A==         |

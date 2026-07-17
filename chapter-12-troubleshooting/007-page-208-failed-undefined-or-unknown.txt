@@ -1,0 +1,4 @@
+# Source: Practical Linux System Administration, PDF page 208
+# Extracted verbatim from the code listing; review before execution.
+
+failed, undefined, or unknown:

@@ -1,0 +1,13 @@
+# Source: Practical Linux System Administration, PDF page 236
+# Extracted verbatim from the code listing; review before execution.
+
+|.o...  oE@o      |
+| ..+  .oB o.     |
+|  . = ...o...    |
+|   o . ..... .   |
+|    * . S...o    |
+|   = = .  .+..   |
+|  = o +   . o.   |
+| . o o     ooo   |
+|     .o.....=+.  |
++----[SHA256]-----+

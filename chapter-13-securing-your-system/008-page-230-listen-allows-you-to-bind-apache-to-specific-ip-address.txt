@@ -1,0 +1,11 @@
+# Source: Practical Linux System Administration, PDF page 230
+# Extracted verbatim from the code listing; review before execution.
+
+# Listen: Allows you to bind Apache to specific IP addresses
+and/or
+# ports, instead of the default. See also the <VirtualHost>
+# directive.
+#
+# Change this to Listen on specific IP addresses as shown below
+to
+# prevent Apache from glomming onto all bound IP addresses.

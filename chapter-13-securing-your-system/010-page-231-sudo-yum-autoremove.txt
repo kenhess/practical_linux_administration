@@ -1,0 +1,5 @@
+# Source: Practical Linux System Administration, PDF page 231
+# Extracted verbatim from the code listing; review before execution.
+
+$ sudo yum autoremove
+$ sudo apt autoremove

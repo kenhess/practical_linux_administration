@@ -1,0 +1,4 @@
+# Source: Practical Linux System Administration, PDF page 229
+# Extracted verbatim from the code listing; review before execution.
+
+xorg-x11-server-utils-7.7-27.el8.x86_64

@@ -1,0 +1,7 @@
+# Source: Practical Linux System Administration, PDF page 248
+# Extracted verbatim from the code listing; review before execution.
+
+$ sudo aide.wrapper --check
+Start timestamp: 2022-10-31 10:09:42 -0400 (AIDE 0.16.1)
+AIDE found differences between database and filesystem!!
+Verbose level: 6

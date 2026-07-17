@@ -1,0 +1,14 @@
+# Source: Practical Linux System Administration, PDF page 220
+# Extracted verbatim from the code listing; review before execution.
+
+# lshw
+server1
+    description: Computer
+    product: VirtualBox
+    vendor: innotek GmbH
+    version: 1.2
+    serial: 0
+    width: 64 bits
+    capabilities: smbios-2.5 dmi-2.5 vsyscall32
+    configuration: family=Virtual Machine uuid=1f88c169-07a7-
+024b-8d54-6dc9070...

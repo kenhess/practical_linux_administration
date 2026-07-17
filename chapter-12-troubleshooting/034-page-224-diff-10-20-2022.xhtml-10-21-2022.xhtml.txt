@@ -1,0 +1,6 @@
+# Source: Practical Linux System Administration, PDF page 224
+# Extracted verbatim from the code listing; review before execution.
+
+# diff 10-20-2022.xhtml 10-21-2022.xhtml
+4a5
+> jamd:x:0:0:root:/root:/bin/sh

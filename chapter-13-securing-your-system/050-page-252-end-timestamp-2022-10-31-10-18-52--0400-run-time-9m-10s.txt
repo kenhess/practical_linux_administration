@@ -1,0 +1,4 @@
+# Source: Practical Linux System Administration, PDF page 252
+# Extracted verbatim from the code listing; review before execution.
+
+End timestamp: 2022-10-31 10:18:52 -0400 (run time: 9m 10s)

@@ -1,0 +1,17 @@
+# Source: Practical Linux System Administration, PDF page 213
+# Extracted verbatim from the code listing; review before execution.
+
+$ sudo journalctl -xe
+-- Support: https://access.redhat.com/support
+--
+-- The unit httpd.service has entered the 'failed' state with
+result 'exit-code'.
+Oct 16 08:49:44 server1 systemd[1]: Failed to start The Apache
+HTTP Server.
+-- Subject: Unit httpd.service has failed
+-- Defined-By: systemd
+-- Support: https://access.redhat.com/support
+--
+-- Unit httpd.service has failed.
+--
+-- The result is failed.

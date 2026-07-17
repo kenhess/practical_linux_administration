@@ -1,0 +1,5 @@
+# Source: Practical Linux System Administration, PDF page 213
+# Extracted verbatim from the code listing; review before execution.
+
+apachectl restart command (See "systemctl status
+httpd.service" and "journalctl -xe" for details.),

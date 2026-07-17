@@ -1,0 +1,14 @@
+# Source: Practical Linux System Administration, PDF page 246
+# Extracted verbatim from the code listing; review before execution.
+
+$ sudo aide --init
+Start timestamp: 2022-10-31 09:19:12 -0400 (AIDE 0.16)
+AIDE initialized database at /var/lib/aide/aide.db.new.gz
+Number of entries:    156566
+---------------------------------------------------
+The attributes of the (uncompressed) database(s):
+---------------------------------------------------
+/var/lib/aide/aide.db.new.gz
+  MD5      : WzAN0+7wHIA5a+vZkzwQVQ==
+  SHA1     : 8FisYNVBvBy3bdg1NaeJY1vm7LI=
+  RMD160   : fwBCNvM7WMl7j8TN3EhB5X72ozs=
