@@ -1,0 +1,9 @@
+# Source: Practical Linux System Administration, PDF page 71
+# Extracted verbatim from the code listing; review before execution.
+
+$ chmod 660 budget.txt
+$ ls -la
+total 0
+drwxrwx---. 2 root  finance 24 Aug 11 21:58 .
+drwxr-xr-x. 3 root  root    21 Aug 11 21:56 ..
+-rw-rw----. 1 khess finance  0 Aug 11 21:58 budget.txt

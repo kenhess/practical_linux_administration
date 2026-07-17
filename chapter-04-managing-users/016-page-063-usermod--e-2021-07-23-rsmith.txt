@@ -1,0 +1,4 @@
+# Source: Practical Linux System Administration, PDF page 63
+# Extracted verbatim from the code listing; review before execution.
+
+# usermod -e 2021-07-23 rsmith

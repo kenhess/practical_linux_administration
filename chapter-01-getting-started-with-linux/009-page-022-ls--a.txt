@@ -1,0 +1,6 @@
+# Source: Practical Linux System Administration, PDF page 22
+# Extracted verbatim from the code listing; review before execution.
+
+$ ls -a
+.  ..  .bash_history  .bash_logout  .bash_profile  .bashrc
+.gnupg  .zshrc

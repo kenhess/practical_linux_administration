@@ -1,0 +1,5 @@
+# Source: Practical Linux System Administration, PDF page 76
+# Extracted verbatim from the code listing; review before execution.
+
+$ sudo ifdown adapter_name
+$ sudo ifup adapter_name

@@ -1,0 +1,12 @@
+# Source: Practical Linux System Administration, PDF page 67
+# Extracted verbatim from the code listing; review before execution.
+
+# chage -m 1 -M 90 rsmith
+# chage -l rsmith
+Last password change                    : Jul 17, 2021
+Password expires                        : Oct 15, 2021
+Password inactive                        : never
+Account expires                        : never
+Minimum number of days between password change    : 1
+Maximum number of days between password change    : 90
+Number of days of warning before password expires    : 7

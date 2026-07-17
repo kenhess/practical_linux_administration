@@ -1,0 +1,4 @@
+# Source: Practical Linux System Administration, PDF page 58
+# Extracted verbatim from the code listing; review before execution.
+
+# useradd jsmith

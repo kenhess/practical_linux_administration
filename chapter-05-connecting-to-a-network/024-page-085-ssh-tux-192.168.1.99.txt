@@ -1,0 +1,6 @@
+# Source: Practical Linux System Administration, PDF page 85
+# Extracted verbatim from the code listing; review before execution.
+
+$ ssh tux@192.168.1.99
+Last login: Sun Sep 26 13:48:19 2021 from 192.168.0.10
+[tux@server1 ~]$

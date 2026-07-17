@@ -1,0 +1,6 @@
+# Source: Practical Linux System Administration, PDF page 29
+# Extracted verbatim from the code listing; review before execution.
+
+[bjones@server1] $ su -
+Password:
+# env

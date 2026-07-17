@@ -1,0 +1,8 @@
+# Source: Practical Linux System Administration, PDF page 39
+# Extracted verbatim from the code listing; review before execution.
+
+$ ls -l
+-rwxrwxrw-. 1 khess khess 0 Jun 29 20:13 file.txt
+$ chmod a-x,o-rw file.txt
+$ ls -l
+-rw-rw----. 1 khess khess 0 Jun 29 20:13 file.txt

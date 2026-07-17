@@ -1,0 +1,12 @@
+# Source: Practical Linux System Administration, PDF page 85
+# Extracted verbatim from the code listing; review before execution.
+
+$ ssh-copy-id tux@192.168.1.99
+/usr/bin/ssh-copy-id: INFO: Source of key(s) to be installed:
+"/home/tux/...
+/usr/bin/ssh-copy-id: INFO: attempting to log in with the new
+key(s), to f...
+/usr/bin/ssh-copy-id: INFO: 1 key(s) remain to be installed -- if
+you are ...
+tux@192.168.1.99's password:
+Number of key(s) added:        1

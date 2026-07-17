@@ -1,0 +1,6 @@
+# Source: Practical Linux System Administration, PDF page 58
+# Extracted verbatim from the code listing; review before execution.
+
+jsmith:x:1007:1007:Jane Smith,Room 26,212-555-
+1000,jsmith@example.com:/home/
+jsmith:/bin/bash

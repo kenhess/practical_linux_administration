@@ -1,0 +1,5 @@
+# Source: Practical Linux System Administration, PDF page 68
+# Extracted verbatim from the code listing; review before execution.
+
+# su - nobody
+This account is currently not available.

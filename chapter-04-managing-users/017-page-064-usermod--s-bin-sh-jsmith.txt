@@ -1,0 +1,4 @@
+# Source: Practical Linux System Administration, PDF page 64
+# Extracted verbatim from the code listing; review before execution.
+
+# usermod -s /bin/sh jsmith

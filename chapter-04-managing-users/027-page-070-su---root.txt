@@ -1,0 +1,33 @@
+# Source: Practical Linux System Administration, PDF page 70
+# Extracted verbatim from the code listing; review before execution.
+
+$ su - root
+Password:
+# mkdir /opt/finance
+# chgrp finance /opt/finance
+# ls -la /opt
+total 0
+drwxr-xr-x.  3 root root     21 Aug 11 21:56 .
+dr-xr-xr-x. 18 root root    239 Aug 11 21:08 ..
+drwxr-xr-x.  2 root finance   6 Aug 11 21:56 finance
+# chmod 770 /opt/finance
+# ls -la /opt
+total 0
+drwxr-xr-x.  3 root root     21 Aug 11 21:56 .
+dr-xr-xr-x. 18 root root    239 Aug 11 21:08 ..
+drwxrwx---.  2 root finance   6 Aug 11 21:56 finance
+# exit
+logout
+$ cd /opt/finance
+$ touch budget.txt
+$ ls -la
+total 0
+drwxrwx---. 2 root  finance 24 Aug 11 21:58 .
+drwxr-xr-x. 3 root  root    21 Aug 11 21:56 ..
+-rw-rw-r--. 1 khess khess    0 Aug 11 21:58 budget.txt
+$ chgrp finance budget.txt
+$ ls -la
+total 0
+drwxrwx---. 2 root  finance 24 Aug 11 21:58 .
+drwxr-xr-x. 3 root  root    21 Aug 11 21:56 ..
+-rw-rw-r--. 1 khess finance  0 Aug 11 21:58 budget.txt

@@ -1,0 +1,8 @@
+# Source: Practical Linux System Administration, PDF page 59
+# Extracted verbatim from the code listing; review before execution.
+
+# passwd jsmith
+Changing password for user jsmith.
+New password:
+Retype new password:
+passwd: all authentication tokens updated successfully.

@@ -1,0 +1,4 @@
+# Source: Practical Linux System Administration, PDF page 66
+# Extracted verbatim from the code listing; review before execution.
+
+# userdel -r jsmith

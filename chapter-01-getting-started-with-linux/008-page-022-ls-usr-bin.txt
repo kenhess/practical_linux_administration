@@ -1,0 +1,9 @@
+# Source: Practical Linux System Administration, PDF page 22
+# Extracted verbatim from the code listing; review before execution.
+
+$ ls /usr/bin
+a2x           getcifsacl            p11-kit
+snmpping
+a2x.py        getconf               pack200               snmpps
+ac            getent                package-cleanup       snmpset
+...

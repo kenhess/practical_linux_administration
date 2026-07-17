@@ -1,0 +1,4 @@
+# Source: Practical Linux System Administration, PDF page 83
+# Extracted verbatim from the code listing; review before execution.
+
+$ sudo systemctl restart sshd

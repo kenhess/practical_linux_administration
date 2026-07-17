@@ -1,0 +1,6 @@
+# Source: Practical Linux System Administration, PDF page 41
+# Extracted verbatim from the code listing; review before execution.
+
+$ chmod 660 file.txt
+$ ls -l
+-rw-rw----. 1 khess khess 0 Jun 29 20:12 file.txt

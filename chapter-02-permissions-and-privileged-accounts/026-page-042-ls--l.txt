@@ -1,0 +1,5 @@
+# Source: Practical Linux System Administration, PDF page 42
+# Extracted verbatim from the code listing; review before execution.
+
+$ ls -l
+-rwxrwx--x. 1 khess khess 0 Jun 29 20:23 file.txt

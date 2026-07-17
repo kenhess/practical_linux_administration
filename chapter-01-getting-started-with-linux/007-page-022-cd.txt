@@ -1,0 +1,7 @@
+# Source: Practical Linux System Administration, PDF page 22
+# Extracted verbatim from the code listing; review before execution.
+
+$ cd
+$ pwd
+$ /home/student1
+$ ls

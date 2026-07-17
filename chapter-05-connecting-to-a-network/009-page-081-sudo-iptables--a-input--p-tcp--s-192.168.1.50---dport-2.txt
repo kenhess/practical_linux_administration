@@ -1,0 +1,5 @@
+# Source: Practical Linux System Administration, PDF page 81
+# Extracted verbatim from the code listing; review before execution.
+
+$ sudo iptables -A INPUT -p tcp -s 192.168.1.50 --dport 22 -j
+ACCEPT

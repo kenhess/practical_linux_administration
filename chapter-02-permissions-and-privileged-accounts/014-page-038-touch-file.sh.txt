@@ -1,0 +1,7 @@
+# Source: Practical Linux System Administration, PDF page 38
+# Extracted verbatim from the code listing; review before execution.
+
+$ touch file.sh
+$ echo "echo Hello" > file.sh
+$ ./file.sh
+-bash: ./file.sh: Permission denied

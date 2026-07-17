@@ -1,0 +1,6 @@
+# Source: Practical Linux System Administration, PDF page 28
+# Extracted verbatim from the code listing; review before execution.
+
+[bjones@server1] $ su root
+Password:
+#

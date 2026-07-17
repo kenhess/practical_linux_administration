@@ -1,0 +1,5 @@
+# Source: Practical Linux System Administration, PDF page 60
+# Extracted verbatim from the code listing; review before execution.
+
+lrwxrwxrwx. 1 root root 17 Oct 26 2020 /usr/sbin/adduser ->
+/usr/sbin/useradd

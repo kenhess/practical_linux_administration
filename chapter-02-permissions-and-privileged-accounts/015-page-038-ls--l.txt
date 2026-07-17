@@ -1,0 +1,5 @@
+# Source: Practical Linux System Administration, PDF page 38
+# Extracted verbatim from the code listing; review before execution.
+
+$ ls -l
+-rw-rw-r--. 1 khess khess 11 Jun 29 19:58 file.sh

@@ -1,0 +1,5 @@
+# Source: Practical Linux System Administration, PDF page 84
+# Extracted verbatim from the code listing; review before execution.
+
+PubkeyAuthentication yes
+AuthorizedKeysFile .ssh/authorized_keys

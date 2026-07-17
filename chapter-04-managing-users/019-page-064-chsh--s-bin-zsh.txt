@@ -1,0 +1,7 @@
+# Source: Practical Linux System Administration, PDF page 64
+# Extracted verbatim from the code listing; review before execution.
+
+$ chsh -s /bin/zsh
+Changing shell for jsmith.
+Password:
+Shell changed.

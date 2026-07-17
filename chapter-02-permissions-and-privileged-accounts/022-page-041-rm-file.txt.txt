@@ -1,0 +1,7 @@
+# Source: Practical Linux System Administration, PDF page 41
+# Extracted verbatim from the code listing; review before execution.
+
+$ rm file.txt
+$ touch file.txt
+$ ls -l
+-rw-rw-r--. 1 khess khess 0 Jun 29 21:12 file.txt

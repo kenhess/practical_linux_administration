@@ -1,0 +1,4 @@
+# Source: Practical Linux System Administration, PDF page 59
+# Extracted verbatim from the code listing; review before execution.
+
+----------. 1 root root 1547 Jul 17 10:55 /etc/shadow

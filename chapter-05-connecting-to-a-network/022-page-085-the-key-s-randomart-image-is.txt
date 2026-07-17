@@ -1,0 +1,15 @@
+# Source: Practical Linux System Administration, PDF page 85
+# Extracted verbatim from the code listing; review before execution.
+
+The key's randomart image is:
++---[RSA 2048]----+
+|         . +=    |
+|         .B=+..  |
+|        .o*@.+ ..|
+|         +*o* * +|
+|       .S.o+ B E |
+|        o.o + * o|
+|         + + + + |
+|          o o o .|
+|               oo|
++----[SHA256]-----+

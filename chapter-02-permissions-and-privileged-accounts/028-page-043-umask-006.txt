@@ -1,0 +1,7 @@
+# Source: Practical Linux System Administration, PDF page 43
+# Extracted verbatim from the code listing; review before execution.
+
+$ umask 006
+$ touch test.txt
+$ ls -l test.txt
+-rw-rw----. 1 khess khess 0 Jun 29 22:16 test.txt

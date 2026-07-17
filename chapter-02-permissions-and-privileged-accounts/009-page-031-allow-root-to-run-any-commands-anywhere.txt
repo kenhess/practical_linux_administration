@@ -1,0 +1,6 @@
+# Source: Practical Linux System Administration, PDF page 31
+# Extracted verbatim from the code listing; review before execution.
+
+## Allow root to run any commands anywhere
+root    ALL=(ALL)       ALL
+khess   ALL=(ALL)       ALL

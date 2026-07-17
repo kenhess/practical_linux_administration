@@ -1,0 +1,4 @@
+# Source: Practical Linux System Administration, PDF page 61
+# Extracted verbatim from the code listing; review before execution.
+
+engineering:x:8020:bjones,kdoe,vkundra,adundee,jsmith

@@ -1,0 +1,6 @@
+# Source: Practical Linux System Administration, PDF page 80
+# Extracted verbatim from the code listing; review before execution.
+
+$ sudo ldd /usr/sbin/sshd | grep libwrap
+        libwrap.so.0 => /lib/x86_64-linux-gnu/libwrap.so.0
+(0x00007fc6c2ab2000)

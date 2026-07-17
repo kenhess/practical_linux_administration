@@ -1,0 +1,7 @@
+# Source: Practical Linux System Administration, PDF page 81
+# Extracted verbatim from the code listing; review before execution.
+
+$ sudo firewall-cmd --permanent --new-zone=SSH_zone
+$ sudo firewall-cmd --permanent --zone=SSH_zone --add-
+source=192.168.1.50
+$ sudo firewall-cmd --permanent --zone=SSH_zone --add-service=ssh

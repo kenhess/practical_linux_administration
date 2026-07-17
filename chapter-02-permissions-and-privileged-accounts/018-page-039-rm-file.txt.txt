@@ -1,0 +1,9 @@
+# Source: Practical Linux System Administration, PDF page 39
+# Extracted verbatim from the code listing; review before execution.
+
+$ rm file.txt
+$ touch file.txt
+$ ls -l
+-rw-rw-r--. 1 khess khess 0 Jun 29 20:13 file.txt
+$ chmod ug+x,o+w file.txt
+-rwxrwxrw-. 1 khess khess 0 Jun 29 20:13 file.txt

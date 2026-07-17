@@ -1,0 +1,4 @@
+# Source: Practical Linux System Administration, PDF page 82
+# Extracted verbatim from the code listing; review before execution.
+
+Error: Could not process rule: No such file or directory.

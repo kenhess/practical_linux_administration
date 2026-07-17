@@ -1,0 +1,5 @@
+# Source: Practical Linux System Administration, PDF page 58
+# Extracted verbatim from the code listing; review before execution.
+
+# useradd -c "Jane Smith,Room 26,212-555-1000,jsmith@example.com"
+jsmith

@@ -1,0 +1,8 @@
+# Source: Practical Linux System Administration, PDF page 30
+# Extracted verbatim from the code listing; review before execution.
+
+$ sudo env
+[sudo] password for bjones:
+bjones is not in the sudoers file.  This incident will be
+reported.
+[bjones@server1 ~]$
