@@ -1,0 +1,6 @@
+# Source: Practical Linux System Administration, PDF page 199
+# Extracted verbatim from the code listing; review before execution.
+
+#INCLUDE \\server1\public\lmhosts
+#INCLUDE \\server2\public\lmhosts
+#INCLUDE \\server3\public\lmhosts

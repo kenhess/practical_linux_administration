@@ -1,0 +1,10 @@
+# Source: Practical Linux System Administration, PDF page 197
+# Extracted verbatim from the code listing; review before execution.
+
+printcap name = cups
+    printing = cups
+    os level = 20
+    netbios name = SERVER1
+    browseable = yes
+    interfaces = lo eth0 192.168.1.0/24
+    hosts allow = 127. 192.168.1.

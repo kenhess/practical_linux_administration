@@ -1,0 +1,33 @@
+# Source: Practical Linux System Administration, PDF page 194
+# Extracted verbatim from the code listing; review before execution.
+
+EDT.
+Dependencies resolved.
+============================================================================
+=====
+ Package              Architecture    Version              Repository
+Size
+============================================================================
+=====
+Installing:
+ samba                x86_64          4.14.5-7.el8_5       baseos
+848 k
+Installing dependencies:
+ libwbclient          x86_64          4.14.5-7.el8_5       baseos
+121 k
+ Samba-client-libs    x86_64          4.14.5-7.el8_5       baseos
+5.4 M
+ samba-common         noarch          4.14.5-7.el8_5       baseos
+221 k
+ Samba-common-libs    x86_64          4.14.5-7.el8_5       baseos
+173 k
+ samba-common-tools   x86_64          4.14.5-7.el8_5       baseos
+500 k
+ samba-libs           x86_64          4.14.5-7.el8_5       baseos
+Transaction Summary
+============================================================================
+=====
+Install  7 Packages
+Total download size: 7.4 M
+Installed size: 25 M
+Is this ok [y/N]: y

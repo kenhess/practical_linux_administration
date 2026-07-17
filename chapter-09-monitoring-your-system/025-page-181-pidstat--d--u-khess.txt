@@ -1,0 +1,12 @@
+# Source: Practical Linux System Administration, PDF page 181
+# Extracted verbatim from the code listing; review before execution.
+
+$ pidstat -d -U khess
+Linux 5.4.0-125-generic (server2)     09/25/2022     _x86_64_
+(2 CPU)
+11:36:26 AM    USER      PID    kB_rd/s   kB_wr/s  kB_ccwr/s
+iodelay  Command
+11:36:26 AM    khess     1131    0.03      0.00      0.00      1
+systemd
+11:36:26 AM    khess     1239    0.79      0.00      0.00      2
+bash

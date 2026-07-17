@@ -1,0 +1,11 @@
+# Source: Practical Linux System Administration, PDF page 173
+# Extracted verbatim from the code listing; review before execution.
+
+$ sar -b
+Linux 4.18.0-348.7.1.el8_5.x86_64 (server1)    09/24/2022
+_x86_64_    (1 CPU)
+12:00:03 AM       tps      rtps      wtps   bread/s   bwrtn/s
+12:10:01 AM      0.53      0.13      0.40     11.42      6.52
+12:20:01 AM      0.17      0.00      0.17      0.00      1.97
+12:30:02 AM      0.16      0.00      0.16      0.00      1.97
+12:40:03 AM      0.17      0.00      0.17      0.00      1.99

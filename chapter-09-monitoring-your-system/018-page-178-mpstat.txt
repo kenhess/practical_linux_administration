@@ -1,0 +1,10 @@
+# Source: Practical Linux System Administration, PDF page 178
+# Extracted verbatim from the code listing; review before execution.
+
+$ mpstat
+Linux 5.4.0-125-generic (server2)     09/25/2022     _x86_64_
+(2 CPU)
+10:06:16 AM  CPU  %usr %nice %sys %iowait %irq  %soft %steal
+%guest %gnice  %idle
+10:06:16 AM  all  0.92  0.01  0.91 0.20   0.00  0.25  0.00
+0.00   0.00   97.72

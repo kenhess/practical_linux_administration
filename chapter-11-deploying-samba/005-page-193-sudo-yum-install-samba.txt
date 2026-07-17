@@ -1,0 +1,5 @@
+# Source: Practical Linux System Administration, PDF page 193
+# Extracted verbatim from the code listing; review before execution.
+
+$ sudo yum install samba
+Last metadata expiration check: 2:55:52 ago on Sat 08 Oct 2022 11:42:12 AM

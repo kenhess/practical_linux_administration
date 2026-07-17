@@ -1,0 +1,11 @@
+# Source: Practical Linux System Administration, PDF page 194
+# Extracted verbatim from the code listing; review before execution.
+
+$ sudo systemctl enable smb
+Created symlink /etc/systemd/system/multi-user.target.wants/smb.service
+→ /usr/lib/systemd/system/smb.service.
+$ sudo systemctl enable nmb
+Created symlink /etc/systemd/system/multi-user.target.wants/nmb.service
+→ /usr/lib/systemd/system/nmb.service.
+$ sudo systemctl start smb
+$ sudo systemctl start nmb

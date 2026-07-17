@@ -1,0 +1,5 @@
+# Source: Practical Linux System Administration, PDF page 193
+# Extracted verbatim from the code listing; review before execution.
+
+$ sudo chgrp facilities /opt/facilities
+$ sudo chmod 770 /opt/facilities

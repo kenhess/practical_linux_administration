@@ -1,0 +1,35 @@
+# Source: Practical Linux System Administration, PDF page 175
+# Extracted verbatim from the code listing; review before execution.
+
+$ iostat -d 2
+Linux 4.18.0-348.7.1.el8_5.x86_64 (server1)    09/24/2022
+_x86_64_    (1 CPU)
+Device             tps    kB_read/s    kB_wrtn/s    kB_read
+kB_wrtn
+sda               0.26         1.59         2.05     312698
+403049
+sdc               0.01         0.04         0.01       8267
+2797
+sdb               0.00         0.02         0.01       3028
+2048
+scd0              0.00         0.00         0.00          1
+0
+dm-0              0.26         1.31         2.12     257071
+416372
+dm-1              0.00         0.01         0.01       2220
+1172
+dm-2              0.00         0.01         0.01       1330
+2048
+Device             tps    kB_read/s    kB_wrtn/s    kB_read
+kB_wrtn
+sda               0.00         0.00         0.00          0
+0
+sdc               0.00         0.00         0.00          0
+0
+sdb               0.00         0.00         0.00          0
+0
+scd0              0.00         0.00         0.00          0
+0
+dm-0              0.00         0.00         0.00          0
+0
+dm-1              0.00         0.00         0.00          0

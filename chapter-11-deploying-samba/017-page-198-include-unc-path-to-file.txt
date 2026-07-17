@@ -1,0 +1,4 @@
+# Source: Practical Linux System Administration, PDF page 198
+# Extracted verbatim from the code listing; review before execution.
+
+#INCLUDE \\UNC Path\To File

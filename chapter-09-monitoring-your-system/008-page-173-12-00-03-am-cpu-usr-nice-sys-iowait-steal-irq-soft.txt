@@ -1,0 +1,11 @@
+# Source: Practical Linux System Administration, PDF page 173
+# Extracted verbatim from the code listing; review before execution.
+
+12:00:03 AM   CPU %usr %nice %sys %iowait %steal %irq %soft
+%guest %gnice %idle
+12:10:01 AM   all 0.02 0.00  0.06 0.01    0.00   0.22 0.05  0.00
+0.00   99.64
+12:20:01 AM   all 0.01 0.00  0.03 0.01    0.00   0.21 0.05  0.00
+0.00   99.69
+12:30:02 AM   all 0.01 0.00  0.03 0.01    0.00   0.20 0.05  0.00
+0.00   99.70

@@ -1,0 +1,4 @@
+# Source: Practical Linux System Administration, PDF page 198
+# Extracted verbatim from the code listing; review before execution.
+
+192.168.1.50    testserv1    #PRE

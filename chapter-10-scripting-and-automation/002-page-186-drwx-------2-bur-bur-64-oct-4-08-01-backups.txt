@@ -1,0 +1,4 @@
+# Source: Practical Linux System Administration, PDF page 186
+# Extracted verbatim from the code listing; review before execution.
+
+drwx------    2 bur  bur         64 Oct  4 08:01 backups

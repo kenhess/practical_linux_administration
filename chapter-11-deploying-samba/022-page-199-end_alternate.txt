@@ -1,0 +1,4 @@
+# Source: Practical Linux System Administration, PDF page 199
+# Extracted verbatim from the code listing; review before execution.
+
+#END_ALTERNATE

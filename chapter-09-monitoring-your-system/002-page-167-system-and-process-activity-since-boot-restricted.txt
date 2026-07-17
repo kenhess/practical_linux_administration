@@ -1,0 +1,5 @@
+# Source: Practical Linux System Administration, PDF page 167
+# Extracted verbatim from the code listing; review before execution.
+
+*** System and Process Activity since Boot ***     Restricted
+view (unprivileged)

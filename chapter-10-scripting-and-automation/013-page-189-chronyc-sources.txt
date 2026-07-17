@@ -1,0 +1,15 @@
+# Source: Practical Linux System Administration, PDF page 189
+# Extracted verbatim from the code listing; review before execution.
+
+$ chronyc sources
+MS Name/IP address         Stratum Poll Reach LastRx Last sample
+==============================================================================
+=
+^? server1                       0   6     0     -     +0ns[   +0ns] +/-
+0ns
+^- mon2.hostin.cc                2   6     7     1    +37ms[  +31ms] +/-
+138ms
+^+ ntp.netnod.se                 1   6     7     1  +9151us[+2267us] +/-
+81ms
+^? nobody.yourvserver.net        2   6     1     4  -2309us[-9194us] +/-
+65ms

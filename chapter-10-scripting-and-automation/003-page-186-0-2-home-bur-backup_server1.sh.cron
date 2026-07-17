@@ -1,0 +1,4 @@
+# Source: Practical Linux System Administration, PDF page 186
+# Extracted verbatim from the code listing; review before execution.
+
+0 2 * * * /home/bur/backup_server1.sh

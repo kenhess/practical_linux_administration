@@ -1,0 +1,16 @@
+# Source: Practical Linux System Administration, PDF page 174
+# Extracted verbatim from the code listing; review before execution.
+
+$ sadf -d /var/log/sa/sa21
+#
+hostname;interval;timestamp;CPU;%user;%nice;%system;%iowait;%stea
+l;%idle
+server1;601;2022-09-21 04:10:04
+UTC;-1;0.01;0.00;0.28;0.01;0.00;99.70
+server1;601;2022-09-21 04:20:05
+UTC;-1;0.01;0.00;0.26;0.01;0.00;99.72
+server1;601;2022-09-21 04:30:06
+UTC;-1;0.01;0.00;0.28;0.01;0.00;99.71
+server1;601;2022-09-21 04:40:07
+UTC;-1;0.01;0.00;0.27;0.01;0.00;99.71
+...

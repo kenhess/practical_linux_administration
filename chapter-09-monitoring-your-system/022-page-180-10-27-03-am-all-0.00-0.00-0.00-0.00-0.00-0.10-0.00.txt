@@ -1,0 +1,9 @@
+# Source: Practical Linux System Administration, PDF page 180
+# Extracted verbatim from the code listing; review before execution.
+
+10:27:03 AM  all   0.00  0.00 0.00  0.00    0.00 0.10  0.00
+0.00  0.00   99.90
+10:27:08 AM  all   0.00  0.00 0.00  0.00    0.00 0.00  0.00
+0.00  0.00  100.00
+Average:     all   0.00  0.00 0.00  0.00    0.00 0.07  0.00
+0.00  0.00   99.93

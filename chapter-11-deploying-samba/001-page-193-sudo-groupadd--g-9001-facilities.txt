@@ -1,0 +1,7 @@
+# Source: Practical Linux System Administration, PDF page 193
+# Extracted verbatim from the code listing; review before execution.
+
+$ sudo groupadd -g 9001 facilities
+$ sudo usermod -g facilities atran
+$ sudo usermod -g facilities areed
+$ sudo usermod -g facilities akumar

@@ -1,0 +1,10 @@
+# Source: Practical Linux System Administration, PDF page 169
+# Extracted verbatim from the code listing; review before execution.
+
+/usr/lib/systemd/...
+khess  1554  0.0  0.4 244512  3868 ?      S    Jul31  0:00 (sd-
+pam)
+khess  1560  0.0  0.5 153444  4728 ?      S    Jul31  0:00 sshd:
+khess@pts/0
+khess  1561  0.0  0.6 235212  5052 pts/0  Ss   Jul31  0:00 -bash
+khess  4698  0.0  0.4 271452  4140 pts/0  R+   08:31  0:00 ps -ux

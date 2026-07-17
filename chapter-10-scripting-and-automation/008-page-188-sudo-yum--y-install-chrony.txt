@@ -1,0 +1,9 @@
+# Source: Practical Linux System Administration, PDF page 188
+# Extracted verbatim from the code listing; review before execution.
+
+$ sudo yum -y install chrony
+$ sudo apt install chrony
+$ sudo systemctl enable chronyd
+Created symlink /etc/systemd/system/multi-user.target.wants/chronyd.service
+→ /usr/lib/systemd/system/chronyd.service.
+$ sudo systemctl start chronyd

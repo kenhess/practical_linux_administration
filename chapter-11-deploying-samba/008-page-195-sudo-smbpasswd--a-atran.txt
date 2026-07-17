@@ -1,0 +1,7 @@
+# Source: Practical Linux System Administration, PDF page 195
+# Extracted verbatim from the code listing; review before execution.
+
+$ sudo smbpasswd -a atran
+New SMB password:
+Retype new SMB password:
+Added user atran.

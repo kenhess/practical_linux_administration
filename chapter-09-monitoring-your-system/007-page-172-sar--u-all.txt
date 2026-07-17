@@ -1,0 +1,6 @@
+# Source: Practical Linux System Administration, PDF page 172
+# Extracted verbatim from the code listing; review before execution.
+
+$ sar -u ALL
+Linux 4.18.0-348.7.1.el8_5.x86_64 (server1)    09/24/2022
+_x86_64_    (1 CPU)

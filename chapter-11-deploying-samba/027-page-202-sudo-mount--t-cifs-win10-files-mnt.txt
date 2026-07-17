@@ -1,0 +1,7 @@
+# Source: Practical Linux System Administration, PDF page 202
+# Extracted verbatim from the code listing; review before execution.
+
+$ sudo mount -t cifs \\\\WIN10\\Files /mnt
+Password for Ken Hess@\WIN10\Files:  ********
+[khess@server1 facilities]$ ls /mnt
+abi.mp4  new.txt  untitled.mp3

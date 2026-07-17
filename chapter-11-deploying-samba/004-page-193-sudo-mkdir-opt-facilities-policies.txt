@@ -1,0 +1,5 @@
+# Source: Practical Linux System Administration, PDF page 193
+# Extracted verbatim from the code listing; review before execution.
+
+$ sudo mkdir /opt/facilities/Policies
+$ sudo chmod 740 /opt/facilities/Policies

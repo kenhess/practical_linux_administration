@@ -1,0 +1,5 @@
+# Source: Practical Linux System Administration, PDF page 190
+# Extracted verbatim from the code listing; review before execution.
+
+^* nettuno.ntp.irh.it            2   6     7     1  -4454us[  -11ms] +/-
+67ms

@@ -1,0 +1,6 @@
+# Source: Practical Linux System Administration, PDF page 182
+# Extracted verbatim from the code listing; review before execution.
+
+fd/s
+\\server2\common  0.00   0.00    0.00      0.00     1.00    1.00
+0.00

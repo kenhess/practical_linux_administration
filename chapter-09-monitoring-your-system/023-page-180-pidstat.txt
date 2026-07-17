@@ -1,0 +1,23 @@
+# Source: Practical Linux System Administration, PDF page 180
+# Extracted verbatim from the code listing; review before execution.
+
+$ pidstat
+Linux 5.4.0-125-generic (server2)     09/25/2022     _x86_64_
+(2 CPU)
+11:19:08 AM   UID   PID   %usr %system  %guest   %wait   %CPU
+CPU  Command
+11:19:08 AM    0     1    0.02   0.04    0.00     0.01    0.06
+0  systemd
+11:19:08 AM    0     2    0.00   0.00    0.00     0.00    0.00
+1  kthreadd
+11:19:08 AM    0    10    0.00   0.01    0.00     0.00    0.01
+0  ksoftirqd/0
+11:19:08 AM    0    11    0.00   0.03    0.00     0.02    0.03
+1  rcu_sched
+11:19:08 AM    0    12    0.00   0.00    0.00     0.00    0.00
+0  migration/0
+11:19:08 AM    0    17    0.01   0.00    0.00     0.01    0.01
+1  migration/1
+11:19:08 AM    0    18    0.00   0.00    0.00     0.01    0.00
+1  ksoftirqd/1
+11:19:08 AM    0    30    0.00   0.00    0.00     0.00    0.00
