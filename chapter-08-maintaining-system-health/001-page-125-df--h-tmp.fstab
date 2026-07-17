@@ -1,0 +1,6 @@
+# Source: Practical Linux System Administration, PDF page 125
+# Extracted verbatim from the code listing; review before execution.
+
+$ df -h /tmp
+Filesystem           Size  Used Avail Use% Mounted on
+/dev/mapper/cl-root  6.2G  3.3G  3.0G  53% /

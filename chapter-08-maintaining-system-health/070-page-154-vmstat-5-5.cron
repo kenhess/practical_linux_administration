@@ -1,0 +1,18 @@
+# Source: Practical Linux System Administration, PDF page 154
+# Extracted verbatim from the code listing; review before execution.
+
+$ vmstat 5 5
+procs -----------memory---------- ---swap-- -----io---- -system--
+------cpu-----
+ r  b   swpd   free   buff  cache   si   so    bi    bo   in   cs
+us sy id  wa st
+ 3  0  44616 343888    244 334676    0    0     1     1    1   24
+0  0 100  0  0
+ 0  0  44616 343768    244 334676    0    0     0     0   48   91
+0  0 100  0  0
+ 0  0  44616 343768    244 334676    0    0     0     2   53  104
+0  0 100  0  0
+ 1  0  44616 343768    244 334676    0    0     0     4   78  141
+0  0 100  0  0
+ 0  0  44616 343768    244 334676    0    0     0     0   75  141
+0  0 100  0  0

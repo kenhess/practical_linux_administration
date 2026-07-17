@@ -1,0 +1,11 @@
+# Source: Practical Linux System Administration, PDF page 156
+# Extracted verbatim from the code listing; review before execution.
+
+loop0             0.00         0.00         0.00          0
+0
+loop1             0.00         0.00         0.00          0
+0
+loop2             0.00         0.00         0.00          0
+0
+dm-2              0.00         0.00         0.00          0
+0

@@ -1,0 +1,6 @@
+# Source: Practical Linux System Administration, PDF page 129
+# Extracted verbatim from the code listing; review before execution.
+
+$ lsblk -o NAME,FSTYPE,SIZE | grep sdc
+sdc                                1G
+└─sdc1              ext4        1023M

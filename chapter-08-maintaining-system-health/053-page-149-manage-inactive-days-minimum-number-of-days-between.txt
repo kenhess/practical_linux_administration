@@ -1,0 +1,5 @@
+# Source: Practical Linux System Administration, PDF page 149
+# Extracted verbatim from the code listing; review before execution.
+
+manage: Inactive days, Minimum number of days between
+password changes, and Maximum number of days between

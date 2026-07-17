@@ -1,0 +1,6 @@
+# Source: Practical Linux System Administration, PDF page 135
+# Extracted verbatim from the code listing; review before execution.
+
+$ su - djones
+Password:
+Last login: Mon Jan 10 20:16:49 CST 2022 on pts/0

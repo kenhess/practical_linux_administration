@@ -1,0 +1,11 @@
+# Source: Practical Linux System Administration, PDF page 126
+# Extracted verbatim from the code listing; review before execution.
+
+$ sudo systemctl enable tmp.mount
+Created symlink /etc/systemd/system/local-
+fs.target.wants/tmp.mount
+→ \ /usr/lib/systemd/system/tmp.mount.
+$ sudo systemctl start tmp.mount
+$ df -h /tmp
+Filesystem      Size  Used Avail Use% Mounted on
+tmpfs           405M     0  405M   0% /tmp

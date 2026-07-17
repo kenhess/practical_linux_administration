@@ -1,0 +1,7 @@
+# Source: Practical Linux System Administration, PDF page 133
+# Extracted verbatim from the code listing; review before execution.
+
+20 bytes each:
+/opt/shared/docs/hr/list.txt
+/opt/shared/x/got.txt
+/opt/shared/a/b/none.doc

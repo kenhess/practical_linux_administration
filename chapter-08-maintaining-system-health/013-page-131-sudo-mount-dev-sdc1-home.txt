@@ -1,0 +1,4 @@
+# Source: Practical Linux System Administration, PDF page 131
+# Extracted verbatim from the code listing; review before execution.
+
+$ sudo mount /dev/sdc1 /home

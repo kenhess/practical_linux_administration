@@ -1,0 +1,8 @@
+# Source: Practical Linux System Administration, PDF page 135
+# Extracted verbatim from the code listing; review before execution.
+
+$ sudo quotaon /home
+quotaon /home
+quotaon: Enforcing group quota already on /dev/sdc1
+quotaon: Enforcing user quota already on /dev/sdc1
+quotaon: Enable XFS project quota accounting during mount

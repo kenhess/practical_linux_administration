@@ -1,0 +1,5 @@
+# Source: Practical Linux System Administration, PDF page 135
+# Extracted verbatim from the code listing; review before execution.
+
+[root@server1 home1]# sudo xfs_quota -x -c \
+'limit -u bsoft=50m bhard=80m isoft=60 \ ihard=80 djones' /home

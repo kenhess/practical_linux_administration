@@ -1,0 +1,4 @@
+# Source: Practical Linux System Administration, PDF page 135
+# Extracted verbatim from the code listing; review before execution.
+
+$ sudo touch /home/quota.group /home/quota.user

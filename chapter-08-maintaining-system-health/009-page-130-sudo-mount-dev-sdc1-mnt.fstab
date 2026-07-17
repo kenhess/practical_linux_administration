@@ -1,0 +1,6 @@
+# Source: Practical Linux System Administration, PDF page 130
+# Extracted verbatim from the code listing; review before execution.
+
+$ sudo mount /dev/sdc1 /mnt
+$ mount | grep sdc
+/dev/sdc1 on /mnt type ext4 (rw,relatime,seclabel)

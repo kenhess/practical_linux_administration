@@ -1,0 +1,10 @@
+# Source: Practical Linux System Administration, PDF page 136
+# Extracted verbatim from the code listing; review before execution.
+
+[djones@server1 ~]$ head -c 51MB /dev/urandom > fillit.txt
+[djones@server1 ~]$ head -c 51MB /dev/urandom > fillit1.txt
+head: error writing 'standard output': Disk quota exceeded
+$ ls -l
+total 81892
+-rw-rw-r--. 1 djones djones 32854016 Jan 10 20:21 fillit1.txt
+-rw-rw-r--. 1 djones djones 51000000 Jan 10 20:21 fillit.txt

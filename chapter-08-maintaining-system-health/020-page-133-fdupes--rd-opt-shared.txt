@@ -1,0 +1,5 @@
+# Source: Practical Linux System Administration, PDF page 133
+# Extracted verbatim from the code listing; review before execution.
+
+$ fdupes -rd /opt/shared
+[1] /opt/shared/a/b/goo.txt

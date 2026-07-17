@@ -1,0 +1,18 @@
+# Source: Practical Linux System Administration, PDF page 149
+# Extracted verbatim from the code listing; review before execution.
+
+Inactive days:                                      15
+Minimum number of days between password changes:    1
+Maximum number of days between password changes:    90
+$ sudo chage -m 1 -M 90 --inactive 15 asmith
+$ sudo chage --list asmith
+Last password change                                : Feb 13,
+2022
+Password expires                                    : May 14,
+2022
+Password inactive                                   : May 29,
+2022
+Account expires                                     : never
+Minimum number of days between password change      : 1
+Maximum number of days between password change      : 90
+Number of days of warning before password expires   : 7

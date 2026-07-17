@@ -1,0 +1,14 @@
+# Source: Practical Linux System Administration, PDF page 134
+# Extracted verbatim from the code listing; review before execution.
+
+[2] /opt/shared/a/false.doc
+[3] /opt/shared/one/two/three/three
+[4] /opt/shared/docs/building/test.rtf
+[5] /opt/shared/x/y/new.txt
+[6] /opt/shared/docs/building/test.txt
+[7] /opt/shared/a/b/list.txt
+[8] /opt/shared/a/b/c/stuff.doc
+[9] /opt/shared/a/todo.list
+[10] /opt/shared/one/foo.lst
+[11] /opt/shared/x/y/listed.here
+Set 1 of 2, preserve files [1 - 11, all]:

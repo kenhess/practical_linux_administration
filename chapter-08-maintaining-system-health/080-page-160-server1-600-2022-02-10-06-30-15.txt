@@ -1,0 +1,7 @@
+# Source: Practical Linux System Administration, PDF page 160
+# Extracted verbatim from the code listing; review before execution.
+
+server1;600;2022-02-10 06:30:15
+UTC;lo;0.00;0.00;0.00;0.00;0.00;...
+server1;600;2022-02-10 06:30:15
+UTC;enp0s3;0.47;0.00;0.10;0.00;0.00;...

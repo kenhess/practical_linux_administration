@@ -1,0 +1,5 @@
+# Source: Practical Linux System Administration, PDF page 150
+# Extracted verbatim from the code listing; review before execution.
+
+$ sudo groupmems -g engineering -l
+$

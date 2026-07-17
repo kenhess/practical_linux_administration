@@ -1,0 +1,5 @@
+# Source: Practical Linux System Administration, PDF page 134
+# Extracted verbatim from the code listing; review before execution.
+
+/dev/sdc1    /home                xfs
+defaults,usrquota,grpquota    0 0

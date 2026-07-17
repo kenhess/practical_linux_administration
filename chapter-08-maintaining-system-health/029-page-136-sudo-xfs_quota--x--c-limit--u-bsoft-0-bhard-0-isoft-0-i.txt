@@ -1,0 +1,16 @@
+# Source: Practical Linux System Administration, PDF page 136
+# Extracted verbatim from the code listing; review before execution.
+
+$ sudo xfs_quota -x -c 'limit -u bsoft=0 bhard=0 isoft=0 ihard=0
+djones' /home
+[sudo] password for khess:
+[khess@server1 home]$ su - djones
+Password:
+Last login: Mon Jan 10 20:20:41 CST 2022 on pts/0
+[djones@server1 ~]$ head -c 51MB /dev/urandom > fillit2.txt
+[djones@server1 ~]$ ls -l
+total 131700
+-rw-rw-r--. 1 djones djones        0 Jan 10 20:21 blah.txt
+-rw-rw-r--. 1 djones djones 32854016 Jan 10 20:21 fillit1.txt
+-rw-rw-r--. 1 djones djones 51000000 Jan 10 22:37 fillit2.txt
+-rw-rw-r--. 1 djones djones 51000000 Jan 10 20:21 fillit.txt

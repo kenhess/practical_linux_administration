@@ -1,0 +1,6 @@
+# Source: Practical Linux System Administration, PDF page 126
+# Extracted verbatim from the code listing; review before execution.
+
+/home/tux
+/home/penguin
+/home/gentoo

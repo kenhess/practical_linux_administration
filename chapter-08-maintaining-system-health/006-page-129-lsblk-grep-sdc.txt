@@ -1,0 +1,6 @@
+# Source: Practical Linux System Administration, PDF page 129
+# Extracted verbatim from the code listing; review before execution.
+
+$ lsblk | grep sdc
+sdc                   8:32   0    1G  0 disk
+└─sdc1                8:33   0 1023M  0 part

@@ -1,0 +1,12 @@
+# Source: Practical Linux System Administration, PDF page 132
+# Extracted verbatim from the code listing; review before execution.
+
+$ fdupes -rS /opt/shared
+29 bytes each:
+/opt/shared/docs/building/test.rtf
+/opt/shared/docs/building/test.txt
+/opt/shared/a/b/list.txt
+/opt/shared/a/b/c/stuff.doc
+/opt/shared/a/todo.list
+/opt/shared/one/foo.lst
+/opt/shared/x/y/listed.here

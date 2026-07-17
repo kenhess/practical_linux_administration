@@ -1,0 +1,4 @@
+# Source: Practical Linux System Administration, PDF page 139
+# Extracted verbatim from the code listing; review before execution.
+
+Is this ok [y/N]:

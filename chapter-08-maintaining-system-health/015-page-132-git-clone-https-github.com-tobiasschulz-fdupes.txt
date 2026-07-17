@@ -1,0 +1,7 @@
+# Source: Practical Linux System Administration, PDF page 132
+# Extracted verbatim from the code listing; review before execution.
+
+$ git clone https://github.com/tobiasschulz/fdupes
+$ cd fdupes
+$ make fdupes
+$ sudo make install

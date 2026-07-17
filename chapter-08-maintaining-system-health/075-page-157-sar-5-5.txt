@@ -1,0 +1,20 @@
+# Source: Practical Linux System Administration, PDF page 157
+# Extracted verbatim from the code listing; review before execution.
+
+$ sar 5 5
+Linux 4.18.0-348.7.1.el8_5.x86_64 (server1)   02/13/2022
+_x86_64_  (1 CPU)
+01:02:11 PM     CPU     %user     %nice   %system   %iowait
+%steal     %idle
+01:02:16 PM     all      0.00      0.00      0.20      0.00
+0.00     99.80
+01:02:21 PM     all      0.00      0.00      0.40      0.00
+0.00     99.60
+01:02:26 PM     all      0.00      0.00      0.20      0.00
+0.00     99.80
+01:02:31 PM     all      0.00      0.00      0.20      0.00
+0.00     99.80
+01:02:36 PM     all      0.00      0.00      0.20      0.00
+0.00     99.80
+Average:        all      0.00      0.00      0.24      0.00
+0.00     99.76

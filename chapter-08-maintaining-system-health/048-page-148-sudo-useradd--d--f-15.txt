@@ -1,0 +1,4 @@
+# Source: Practical Linux System Administration, PDF page 148
+# Extracted verbatim from the code listing; review before execution.
+
+$ sudo useradd -D -f 15

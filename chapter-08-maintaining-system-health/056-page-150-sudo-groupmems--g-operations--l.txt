@@ -1,0 +1,7 @@
+# Source: Practical Linux System Administration, PDF page 150
+# Extracted verbatim from the code listing; review before execution.
+
+$ sudo groupmems -g operations -l
+ajones bhaas
+$ sudo groupmems -g hr -l
+asmith

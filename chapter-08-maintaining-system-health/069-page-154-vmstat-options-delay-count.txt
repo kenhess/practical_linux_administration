@@ -1,0 +1,4 @@
+# Source: Practical Linux System Administration, PDF page 154
+# Extracted verbatim from the code listing; review before execution.
+
+vmstat [options] [delay [count]]

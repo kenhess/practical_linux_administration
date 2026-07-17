@@ -1,0 +1,17 @@
+# Source: Practical Linux System Administration, PDF page 130
+# Extracted verbatim from the code listing; review before execution.
+
+$ sudo cp -a /home/* /mnt
+$ ls -la /home
+total 0
+drwxr-xr-x.  4 root  root   32 Nov  3  2020 .
+dr-xr-xr-x. 19 root  root  258 Dec 10 08:37 ..
+drwx------.  2  1001  1001  62 Nov 13  2020 diane
+drwx------.  7 khess khess 273 Dec 14 21:03 khess
+$ ls -la /mnt
+total 28
+drwxr-xr-x.  5 root  root   4096 Dec 15 08:33 .
+dr-xr-xr-x. 19 root  root    258 Dec 10 08:37 ..
+drwx------.  2  1001  1001  4096 Nov 13  2020 diane
+drwx------.  7 khess khess  4096 Dec 14 21:03 khess
+drwx------.  2 root  root  16384 Dec 15 08:17 lost+found

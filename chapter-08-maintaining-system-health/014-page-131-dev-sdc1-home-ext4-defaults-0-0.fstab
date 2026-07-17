@@ -1,0 +1,4 @@
+# Source: Practical Linux System Administration, PDF page 131
+# Extracted verbatim from the code listing; review before execution.
+
+/dev/sdc1    /home                ext4    defaults    0 0
